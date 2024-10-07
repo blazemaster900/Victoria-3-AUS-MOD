@@ -307,7 +307,7 @@ identity_ideological_union = {
 	}
 
 	leader_modifier = {
-		country_law_enactment_time_mult = -0.25 #Increased enactment time reduction from 10% to 25%.
+		country_law_enactment_time_mult = -0.15 #Increased enactment time reduction from 10% to 25%. #Reduced back to 15%
 		country_can_impose_same_lawgroup_governance_principles_in_power_bloc_bool = yes
 		country_can_impose_same_lawgroup_distribution_of_power_in_power_bloc_bool = yes
 	}
