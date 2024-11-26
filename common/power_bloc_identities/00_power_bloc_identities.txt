@@ -39,7 +39,7 @@
 
 	mandate_progress = power_bloc_mandate_progress_by_rank
 	
-	# on_created = { relations_hit_with_power_bloc_leaders = yes } #removed relations hit
+	# on_created = { relations_hit_with_power_bloc_leaders = yes } #Removed Relations Hit From Forming Bloc
 	
 	cohesion = {
 		add = {
@@ -184,6 +184,10 @@ identity_sovereign_empire = {
 
 	member_modifier = {	
 	}
+	
+	#possible = { #Removed requirement to be a monarchy for soverign empire - blaze
+	#	has_law = law_type:law_monarchy
+	#}
 
 	can_leave = {
 		OR = {
@@ -206,7 +210,7 @@ identity_sovereign_empire = {
 
 	mandate_progress = power_bloc_mandate_progress_by_rank
 	
-	# on_created = { relations_hit_with_power_bloc_leaders = yes } #Removed relations hit from forming bloc
+	# on_created = { relations_hit_with_power_bloc_leaders = yes } #Removed Relations Hit From Forming Bloc
 	
 	cohesion = {
 		add = {
@@ -307,7 +311,7 @@ identity_ideological_union = {
 	}
 
 	leader_modifier = {
-		country_law_enactment_time_mult = -0.15 #Increased enactment time reduction from 10% to 25%. #Reduced back to 15%
+		country_law_enactment_time_mult = -0.17
 		country_can_impose_same_lawgroup_governance_principles_in_power_bloc_bool = yes
 		country_can_impose_same_lawgroup_distribution_of_power_in_power_bloc_bool = yes
 	}
@@ -341,7 +345,7 @@ identity_ideological_union = {
 
 	mandate_progress = power_bloc_mandate_progress_by_rank
 	
-	# on_created = { relations_hit_with_power_bloc_leaders = yes } #Removed relations hit from forming bloc
+	# on_created = { relations_hit_with_power_bloc_leaders = yes } #Removed Relations Hit From Forming Bloc
 
 	cohesion = {
 		add = {
@@ -413,6 +417,12 @@ identity_ideological_union = {
 				desc = POWER_BLOC_COHESION_WORST_PROGRESSIVENESS_DIFFERENCE
 			}
 		}
+		else = {
+			add = {
+				add = 0
+				desc = POWER_BLOC_COHESION_WORST_PROGRESSIVENESS_ZERO
+			}
+		}
 	}
 	
 	ai_weight = {
@@ -477,7 +487,7 @@ identity_military_treaty_organization = {
 	}
 
 	member_modifier = {
-		building_training_rate_mult = 0.2
+		building_training_rate_mult = 0.3 #Slightly buffed military treaty 0.2 -> 0.3 - Blaze
 	}
 	
 	possible = {
@@ -505,7 +515,7 @@ identity_military_treaty_organization = {
 
 	mandate_progress = power_bloc_mandate_progress_by_rank
 	
-	# on_created = { relations_hit_with_power_bloc_leaders = yes } #Removed relations hit from forming bloc
+	# on_created = { relations_hit_with_power_bloc_leaders = yes } #Removed Relations Hit From Forming Bloc
 	
 	cohesion = {
 		add = {
@@ -529,6 +539,24 @@ identity_military_treaty_organization = {
 			multiply = define:NPowerBlocs|COHESION_TARGET_MAX
 			desc = POWER_BLOC_COHESION_SHARE_POWER_PROJECTION
 		}
+		
+		# add = { #Removed Malus to military Treaty cohesion from infamy because thats stupid - blaze
+		# 	if = {
+		# 		limit = { exists = scope:with_country }
+		# 		add = "scope:power_bloc.power_bloc_worst_infamy_with(scope:with_country)"
+		# 	}
+		# 	else_if = {
+		# 		limit = { exists = scope:without_country }
+		# 		add = "scope:power_bloc.power_bloc_worst_infamy_without(scope:without_country)"
+		# 	}
+		# 	else = {
+		# 		add = scope:power_bloc.power_bloc_worst_infamy
+		# 	}
+		# 	divide = define:NDiplomacy|INFAMY_THRESHOLD_PARIAH
+		# 	multiply = -1
+		# 	multiply = define:NPowerBlocs|COHESION_TARGET_MAX
+		# 	desc = POWER_BLOC_COHESION_WORST_INFAMY
+		#}
 		
 		add = {
 			if = {
@@ -657,7 +685,7 @@ identity_religious = {
 
 	mandate_progress = power_bloc_mandate_progress_by_rank
 	
-	# on_created = { relations_hit_with_power_bloc_leaders = yes } #Removed relations hit from forming bloc
+	# on_created = { relations_hit_with_power_bloc_leaders = yes } #Removed Relations Hit From Forming Bloc
 	
 	cohesion = {
 		add = {

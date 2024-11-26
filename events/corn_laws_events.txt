@@ -89,17 +89,19 @@ corn_laws.2 = {
 			interest_group = ig:ig_landowners
 			ideology = ideology_market_liberal
 		}
+		add_radicals = {
+			value = medium_radicals
+			pop_type = aristocrats
+		}
 
-		ig:ig_landowners = { #Added event kill protection to stop corn laws market liberal being instanta killed.
+
+		ig:ig_landowners = { #Added event kill protection to stop corn laws market liberal being instanta killed. - blaze
 			set_variable = {
 				name = memento_mori
 				years = 5
 			}
 		}
-		add_radicals = {
-			value = medium_radicals
-			pop_type = aristocrats
-		}
+
 	}
 
 	option = {
@@ -138,13 +140,7 @@ corn_laws.3 = {
 		NOT = { has_modifier = corn_law_leverage }
 		any_scope_pop = {
 			is_pop_type = aristocrats
-			OR = {
-				pop_employment_building = building_rye_farm
-				pop_employment_building = building_wheat_farm
-				pop_employment_building = building_rice_farm
-				pop_employment_building = building_maize_farm
-				pop_employment_building = building_millet_farm
-			}
+			pop_employment_building = building_manor_house
 			wealth > 20
 		}
 	}
@@ -153,13 +149,7 @@ corn_laws.3 = {
 		random_scope_pop = {
 			limit = {
 				is_pop_type = aristocrats
-				OR = {
-					pop_employment_building = building_rye_farm
-					pop_employment_building = building_wheat_farm
-					pop_employment_building = building_rice_farm
-					pop_employment_building = building_maize_farm
-					pop_employment_building = building_millet_farm
-				}
+				pop_employment_building = building_manor_house
 				wealth > 20
 			}
 			save_scope_as = wealthy_landowners
@@ -244,7 +234,7 @@ corn_laws.4 = {
         default_option = yes
 
         add_radicals = {
-        	strata = poor
+        	strata = lower
         	value = small_radicals
         }
 	}
