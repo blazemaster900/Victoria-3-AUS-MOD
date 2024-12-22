@@ -209,7 +209,7 @@ electricity = {
 	cost = 30
 	category = staple
 #	local = yes #Made Electricity Global - blaze
-	
+	tradeable = no #Made it so you cant trade electricity, because thats retarded
 	prestige_factor = 5
 	
 	consumption_tax_cost = 200
