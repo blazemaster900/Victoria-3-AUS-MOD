@@ -278,6 +278,7 @@ government_wages_very_low = {
 	interest_group_ig_intelligentsia_approval_add = -2
 	interest_group_ig_petty_bourgeoisie_approval_add = -2
 	country_prestige_mult = -0.2
+	country_authority_mult = -0.1 #added authority penalty to very low wages 10% - Blaze
 }
 
 government_wages_low = {
@@ -286,6 +287,7 @@ government_wages_low = {
 	interest_group_ig_intelligentsia_approval_add = -1
 	interest_group_ig_petty_bourgeoisie_approval_add = -1
 	country_prestige_mult = -0.1
+	country_authority_mult = -0.05 #added authority penalty to low wages 5% - Blaze
 }
 
 government_wages_medium = {
