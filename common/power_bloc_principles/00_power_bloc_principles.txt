@@ -410,6 +410,9 @@ principle_defensive_cooperation_1 = {
 	power_bloc_modifier = {
 		# Members cannot start wars amongst each other
 		power_bloc_disallow_war_bool = yes
+		country_war_exhaustion_casualties_mult = -0.10 #Added modifer to defensive cooperation on the defense the people will never surrender! (yes its cringe) - Blaze
+	
+
 	}
 	
 	ai_weight = {
@@ -448,6 +451,7 @@ principle_defensive_cooperation_2 = {
 	power_bloc_modifier = {
 		# Modifiers from previous level(s)
 		power_bloc_disallow_war_bool = yes
+		country_war_exhaustion_casualties_mult = -0.15 #Added modifer to defensive cooperation on the defense the people will never surrender! (yes its cringe) - Blaze
 		
 		# Swaying members to join your side costs 50% less maneuvers if the inviting country is on the target's side
 		power_bloc_target_sway_cost_mult = -0.5
@@ -476,6 +480,7 @@ principle_defensive_cooperation_3 = {
 		# Modifiers from previous level(s)
 		power_bloc_disallow_war_bool = yes
 		power_bloc_target_sway_cost_mult = -0.5
+		country_war_exhaustion_casualties_mult = -0.20 #Added modifer to defensive cooperation on the defense the people will never surrender! (yes its cringe) - Blaze
 	}
 	
 	ai_weight = {
@@ -550,17 +555,18 @@ principle_aggressive_coordination_3 = {
 
 	power_bloc_modifier = {	
 		# Reduces cohesion
-		power_bloc_cohesion_add = -10
+		# power_bloc_cohesion_add = -10 Removed random loss of cohesion from third level, just why? - blaze
+		
 	}
 	
 	member_modifier = {
 		# Modifiers from previous level(s)
 		country_initiator_war_goal_maneuver_cost_mult = -0.3
-		country_war_exhaustion_casualties_mult = -0.15
+		#country_war_exhaustion_casualties_mult = -0.15 removed war exhaustion from casulaties reduction and moved to defensive - blaze
 	
 		# Countries forced to join diplomatic plays of members, other countries are not happy about this threat
 		country_join_power_bloc_member_in_plays_bool = yes
-		country_infamy_generation_mult = 0.15
+		#country_infamy_generation_mult = 0.15 Removed Infamy increase because thats stupid - Blaze
 	}
 	
 	ai_weight = {
