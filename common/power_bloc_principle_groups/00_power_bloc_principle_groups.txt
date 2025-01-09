@@ -103,6 +103,7 @@ principle_group_transport = {
 }
 
 principle_group_military_industry = {
+	primary_for_identity = identity_military_treaty_organization #Made Military Industry a primary option for military treaty as it makes sense and to add some more variety- blaze
 	levels = {
 		principle_military_industry_1
 		principle_military_industry_2

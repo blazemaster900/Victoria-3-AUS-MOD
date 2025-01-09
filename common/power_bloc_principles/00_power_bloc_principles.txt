@@ -411,7 +411,7 @@ principle_defensive_cooperation_1 = {
 		# Members cannot start wars amongst each other
 		power_bloc_disallow_war_bool = yes
 		country_war_exhaustion_casualties_mult = -0.10 #Added modifer to defensive cooperation on the defense the people will never surrender! (yes its cringe) - Blaze
-	
+		unit_army_defense_mult = 0.025 #Added a very slight amount of defensive bonus to defensive coordination
 
 	}
 	
@@ -452,7 +452,7 @@ principle_defensive_cooperation_2 = {
 		# Modifiers from previous level(s)
 		power_bloc_disallow_war_bool = yes
 		country_war_exhaustion_casualties_mult = -0.15 #Added modifer to defensive cooperation on the defense the people will never surrender! (yes its cringe) - Blaze
-		
+		unit_army_defense_mult = 0.05 #Added a very slight amount of defensive bonus to defensive coordination
 		# Swaying members to join your side costs 50% less maneuvers if the inviting country is on the target's side
 		power_bloc_target_sway_cost_mult = -0.5
 	}
@@ -481,6 +481,7 @@ principle_defensive_cooperation_3 = {
 		power_bloc_disallow_war_bool = yes
 		power_bloc_target_sway_cost_mult = -0.5
 		country_war_exhaustion_casualties_mult = -0.20 #Added modifer to defensive cooperation on the defense the people will never surrender! (yes its cringe) - Blaze
+		unit_army_defense_mult = 0.10 #Added a very slight amount of defensive bonus to defensive coordination
 	}
 	
 	ai_weight = {
@@ -501,6 +502,7 @@ principle_aggressive_coordination_1 = {
 	member_modifier = {
 		# Reduces maneuver cost for picking wargoals during Diplomatic Play
 		country_initiator_war_goal_maneuver_cost_mult = -0.3
+		country_military_goods_cost_mult = -0.05 #Reduced cost for military goods -blaze
 	}
 	
 	ai_weight = {
@@ -539,9 +541,10 @@ principle_aggressive_coordination_2 = {
 	member_modifier = {
 		# Modifiers from previous level(s)
 		country_initiator_war_goal_maneuver_cost_mult = -0.3
+		country_military_goods_cost_mult = -0.10 #Reduced cost for military goods -blaze
 		
 		# Reduces war exhaustion from casualties, propaganda!
-		country_war_exhaustion_casualties_mult = -0.15
+		#country_war_exhaustion_casualties_mult = -0.15 removed war exhaustion from casulaties reduction and moved to defensive - blaze
 	}
 	
 	ai_weight = {
@@ -567,6 +570,8 @@ principle_aggressive_coordination_3 = {
 		# Countries forced to join diplomatic plays of members, other countries are not happy about this threat
 		country_join_power_bloc_member_in_plays_bool = yes
 		#country_infamy_generation_mult = 0.15 Removed Infamy increase because thats stupid - Blaze
+
+		country_military_goods_cost_mult = -0.20 #Reduced cost for military goods -blaze
 	}
 	
 	ai_weight = {
@@ -983,8 +988,8 @@ principle_military_industry_2 = {
 		building_artillery_foundries_throughput_add = 0.1
 		building_military_shipyards_throughput_add = 0.1
 		
-		# Members get reduced military goods cost
-		country_military_goods_cost_mult = -0.15
+		## Members get reduced military goods cost
+		#country_military_goods_cost_mult = -0.15 #removed from military Industry to aggressive coordination
 	}
 	
 	ai_weight = {
