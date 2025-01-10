@@ -1014,10 +1014,10 @@ principle_military_industry_3 = {
 		building_arms_industry_throughput_add = 0.1
 		building_artillery_foundries_throughput_add = 0.1
 		building_military_shipyards_throughput_add = 0.1
-		country_military_goods_cost_mult = -0.15
+		#country_military_goods_cost_mult = -0.15 #removed from military Industry to aggressive coordination
 		
 		# Supply routes use less convoys
-		character_supply_route_cost_mult = -0.33
+		#character_supply_route_cost_mult = -0.33 removed and put in aggressive
 		
 		# Members get an unique mobilization option mechanic
 	}
@@ -1641,7 +1641,6 @@ principle_sacred_civics_3 = {
 	ai_weight = {
 		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
 	}
-}
 
 ### Ideological Truth
 
