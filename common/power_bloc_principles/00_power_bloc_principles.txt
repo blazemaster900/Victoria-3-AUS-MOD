@@ -409,10 +409,10 @@ principle_defensive_cooperation_1 = {
 
 	power_bloc_modifier = {
 		# Members cannot start wars amongst each other
-		power_bloc_disallow_war_bool = yes
+		power_bloc_disallow_war_bool = yes #Its whatever i will leave it - blaze
 		country_war_exhaustion_casualties_mult = -0.10 #Added modifer to defensive cooperation on the defense the people will never surrender! (yes its cringe) - Blaze
-		unit_army_defense_mult = 0.025 #Added a very slight amount of defensive bonus to defensive coordination
-
+		unit_army_defense_mult = 0.025 #Added a very slight amount of defensive bonus to defensive coordination - blaze
+		unit_morale_recovery_mult = 0.05 #Added some morale recovery, they fight in the defense of the motherland, there will be no surrender, no concessions! - blaze
 	}
 	
 	ai_weight = {
@@ -455,6 +455,7 @@ principle_defensive_cooperation_2 = {
 		unit_army_defense_mult = 0.05 #Added a very slight amount of defensive bonus to defensive coordination
 		# Swaying members to join your side costs 50% less maneuvers if the inviting country is on the target's side
 		power_bloc_target_sway_cost_mult = -0.5
+		unit_morale_recovery_mult = 0.10 #Added some morale recovery, they fight in the defense of the motherland, there will be no surrender, no concessions! - blaze
 	}
 	
 	leader_modifier = {
@@ -482,6 +483,7 @@ principle_defensive_cooperation_3 = {
 		power_bloc_target_sway_cost_mult = -0.5
 		country_war_exhaustion_casualties_mult = -0.20 #Added modifer to defensive cooperation on the defense the people will never surrender! (yes its cringe) - Blaze
 		unit_army_defense_mult = 0.10 #Added a very slight amount of defensive bonus to defensive coordination
+		unit_morale_recovery_mult = 0.15 #Added some morale recovery, they fight in the defense of the motherland, there will be no surrender, no concessions! - blaze
 	}
 	
 	ai_weight = {
@@ -501,8 +503,10 @@ principle_aggressive_coordination_1 = {
 
 	member_modifier = {
 		# Reduces maneuver cost for picking wargoals during Diplomatic Play
-		country_initiator_war_goal_maneuver_cost_mult = -0.3
-		country_military_goods_cost_mult = -0.05 #Reduced cost for military goods -blaze
+		country_initiator_war_goal_maneuver_cost_mult = -0.10 #Reduced amount of manuevuer cost reduction given at first level - blaze
+		unit_mobilization_speed_mult = 0.05 #Added unit mobilization speed. A country focused on warfare would be very quick to respond - blaze
+		unit_army_experience_gain_mult = 0.05 #Added Army Experince gain, to aggressively fight is to learn the ways of war. - blaze
+
 	}
 	
 	ai_weight = {
@@ -540,9 +544,11 @@ principle_aggressive_coordination_2 = {
 
 	member_modifier = {
 		# Modifiers from previous level(s)
-		country_initiator_war_goal_maneuver_cost_mult = -0.3
+		country_initiator_war_goal_maneuver_cost_mult = -0.20 #Decreased manuevuer cost reduction - blaze
 		country_military_goods_cost_mult = -0.10 #Reduced cost for military goods -blaze
-		
+		unit_mobilization_speed_mult = 0.25 #increased unit mobilization speed. A country focused on warfare would be very quick to respond - blaze
+		unit_army_experience_gain_mult = 0.15 #Increased Army Experince gain, to aggressively fight is to learn the ways of war. - blaze
+		unit_supply_consumption_mult = -0.10 #Decreased unit supply consumption. - blaze
 		# Reduces war exhaustion from casualties, propaganda!
 		#country_war_exhaustion_casualties_mult = -0.15 removed war exhaustion from casulaties reduction and moved to defensive - blaze
 	}
@@ -565,13 +571,14 @@ principle_aggressive_coordination_3 = {
 	member_modifier = {
 		# Modifiers from previous level(s)
 		country_initiator_war_goal_maneuver_cost_mult = -0.3
-		#country_war_exhaustion_casualties_mult = -0.15 removed war exhaustion from casulaties reduction and moved to defensive - blaze
-	
-		# Countries forced to join diplomatic plays of members, other countries are not happy about this threat
-		country_join_power_bloc_member_in_plays_bool = yes
-		#country_infamy_generation_mult = 0.15 Removed Infamy increase because thats stupid - Blaze
-
 		country_military_goods_cost_mult = -0.20 #Reduced cost for military goods -blaze
+		unit_mobilization_speed_mult = 0.50 #increased unit mobilization speed. A country focused on warfare would be very quick to respond - blaze
+		unit_army_experience_gain_mult = 0.33 #Increased Army Experince gain, to aggressively fight is to learn the ways of war. - blaze
+		unit_supply_consumption_mult = -0.25 #Decreased unit supply consumption. - blaze
+		#country_war_exhaustion_casualties_mult = -0.15 removed war exhaustion from casulaties reduction and moved to defensive - blaze
+		# Countries forced to join diplomatic plays of members, other countries are not happy about this threat
+		#country_join_power_bloc_member_in_plays_bool = yes
+		#country_infamy_generation_mult = 0.15 Removed Infamy increase because thats stupid - Blaze
 	}
 	
 	ai_weight = {
@@ -1240,13 +1247,14 @@ principle_creative_legislature_3 = {
 	
 	member_modifier = {
 		# Modifiers from previous level(s)	
-		country_law_enactment_stall_mult = -0.33
+		country_law_enactment_stall_mult = -0.50 #increased stall chance reduction by from 33% -> 50% - blaze
 		
 		political_movement_radicalism_from_enactment_disapproval_mult = -0.25
 		political_movement_radicalism_from_enactment_approval_mult = 0.25
 		
 		# Can have one additional setback before failing a law enactment
 		country_law_enactment_max_setbacks_add = 1
+		country_legitimacy_base_add = 15 #added 15+ base legitimacy to creative legislature. Removed from ideological truth - blaze
 	}
 
 	ai_weight = {
@@ -1701,13 +1709,13 @@ principle_ideological_truth_3 = {
 	
 	member_modifier = {
 		# Modifiers from previous level(s)		
-		interest_group_in_opposition_agitator_popularity_add = -33
-		country_bolster_cost_mult = -0.25
-		country_suppression_cost_mult = -0.25		
+		#interest_group_in_opposition_agitator_popularity_add = -33 # removed as not necessarily a good thing 
+		country_bolster_cost_mult = -0.50
+		country_suppression_cost_mult = -0.50		
 		country_party_whip_impact_mult = 0.2
 		
 		# Members Legitimacy can't fall under 25
-		country_legitimacy_min_add = 25		
+		#country_legitimacy_min_add = 25		#removed and changed as straight legitimacy in creative legislature - blaze
 	}
 
 	ai_weight = {
