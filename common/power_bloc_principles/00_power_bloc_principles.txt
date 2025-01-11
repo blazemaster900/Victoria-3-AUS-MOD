@@ -949,6 +949,7 @@ principle_military_industry_1 = {
 		building_arms_industry_throughput_add = 0.1
 		building_artillery_foundries_throughput_add = 0.1
 		building_military_shipyards_throughput_add = 0.1
+		building_munition_plants_throughput_add = 0.1 #Added throughput bonus to munition plants - blaze
 	}
 	
 	ai_weight = {
@@ -990,13 +991,13 @@ principle_military_industry_2 = {
 	
 	member_modifier = {
 		# Modifiers from previous level(s)
-		building_war_machine_industry_throughput_add = 0.1
-		building_arms_industry_throughput_add = 0.1
-		building_artillery_foundries_throughput_add = 0.1
-		building_military_shipyards_throughput_add = 0.1
-		
+		building_war_machine_industry_throughput_add = 0.15 #Slight increase to throughput - Blaze
+		building_arms_industry_throughput_add = 0.15 #Slight increase to throughput - blaze
+		building_artillery_foundries_throughput_add = 0.15 #Slight increase to throughput - blaze
+		building_military_shipyards_throughput_add = 0.15 #Slight increase to throughput - blaze
+		building_munition_plants_throughput_add = 0.15 #Added throughput bonus to munition plants - blaze
 		## Members get reduced military goods cost
-		#country_military_goods_cost_mult = -0.15 #removed from military Industry to aggressive coordination
+		#country_military_goods_cost_mult = -0.15 #removed from military Industry to aggressive coordination - blaze
 	}
 	
 	ai_weight = {
@@ -1010,11 +1011,12 @@ principle_military_industry_3 = {
 	
 	member_modifier = {
 		# Modifiers from previous level(s)	
-		building_war_machine_industry_throughput_add = 0.1
-		building_arms_industry_throughput_add = 0.1
-		building_artillery_foundries_throughput_add = 0.1
-		building_military_shipyards_throughput_add = 0.1
-		#country_military_goods_cost_mult = -0.15 #removed from military Industry to aggressive coordination
+		building_war_machine_industry_throughput_add = 0.20 #Slight increase to throughput - blaze
+		building_arms_industry_throughput_add = 0.20 #Slight increase to throughput - blaze
+		building_artillery_foundries_throughput_add = 0.20 #Slight increase to throughput-  blaze
+		building_military_shipyards_throughput_add = 0.20 #Slight increase to throughput - blaze
+		building_munition_plants_throughput_add = 0.20 #Added throughput bonus to munition plants - blaze
+		#country_military_goods_cost_mult = -0.15 #removed from military Industry to aggressive coordination - blaze
 		
 		# Supply routes use less convoys
 		#character_supply_route_cost_mult = -0.33 removed and put in aggressive
