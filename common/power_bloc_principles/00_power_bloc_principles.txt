@@ -1656,11 +1656,11 @@ principle_ideological_truth_1 = {
 	
 	member_modifier = {
 		# Agitators of non-government IGs have lower popularity
-		interest_group_in_opposition_agitator_popularity_add = -33
+		#interest_group_in_opposition_agitator_popularity_add = -33 # removed as not necessarily a good thing -blaze
 		
 		# Reduces IG bolster and suppression costs
-		country_bolster_cost_mult = -0.25
-		country_suppression_cost_mult = -0.25		
+		country_bolster_cost_mult = -0.2 #started bolstering and supressing reduction by -20% going furthur every level - blaze
+		country_suppression_cost_mult = -0.2		
 	}
 	
 	ai_weight = {
@@ -1691,7 +1691,7 @@ principle_ideological_truth_2 = {
 
 	member_modifier = {
 		# Modifiers from previous level(s)		
-		interest_group_in_opposition_agitator_popularity_add = -33
+		#interest_group_in_opposition_agitator_popularity_add = -33 # removed as not necessarily a good thing -blaze
 		country_bolster_cost_mult = -0.25
 		country_suppression_cost_mult = -0.25			
 		
@@ -1710,7 +1710,7 @@ principle_ideological_truth_3 = {
 	
 	member_modifier = {
 		# Modifiers from previous level(s)		
-		#interest_group_in_opposition_agitator_popularity_add = -33 # removed as not necessarily a good thing 
+		#interest_group_in_opposition_agitator_popularity_add = -33 # removed as not necessarily a good thing -blaze
 		country_bolster_cost_mult = -0.50
 		country_suppression_cost_mult = -0.50		
 		country_party_whip_impact_mult = 0.2
