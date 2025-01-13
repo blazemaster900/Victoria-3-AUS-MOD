@@ -49,9 +49,9 @@
 		second_modifier = {
 			country_pact_leverage_generation_add = 200
 			unit_experience_gain_mult = 0.5
-			building_training_rate_mult = 0.2
-			country_military_goods_cost_mult = -0.1
-			country_military_tech_spread_mult = 0.1
+			#building_training_rate_mult = 0.2
+			#country_military_goods_cost_mult = -0.1
+			#country_military_tech_spread_mult = 0.1 #readjusted military assistance pact - blaze
 		}
 
 		is_two_sided_pact = yes
