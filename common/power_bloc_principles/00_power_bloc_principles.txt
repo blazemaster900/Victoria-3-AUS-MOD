@@ -1643,7 +1643,7 @@ principle_sacred_civics_3 = {
 	ai_weight = {
 		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
 	}
-
+}
 ### Ideological Truth
 
 principle_ideological_truth_1 = {
