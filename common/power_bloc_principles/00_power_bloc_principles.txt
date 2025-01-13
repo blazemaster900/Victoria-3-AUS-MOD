@@ -1694,7 +1694,7 @@ principle_ideological_truth_2 = {
 		#interest_group_in_opposition_agitator_popularity_add = -33 # removed as not necessarily a good thing -blaze
 		country_bolster_cost_mult = -0.25
 		country_suppression_cost_mult = -0.25			
-		
+		state_loyalists_from_sol_change_mult = 0.1 #added Loyalist gain from SOL
 		# Reduces ideological coherence penalty for IGs in same party
 		country_party_whip_impact_mult = 0.2
 	}
@@ -1714,7 +1714,10 @@ principle_ideological_truth_3 = {
 		country_bolster_cost_mult = -0.50
 		country_suppression_cost_mult = -0.50		
 		country_party_whip_impact_mult = 0.2
-		
+		state_loyalists_from_sol_change_mult = 0.2 #increased loyalists from SOL 
+		state_lower_strata_expected_sol_add = -0.5
+		state_middle_strata_expected_sol_add = -1
+		state_upper_strata_expected_sol_add = -2
 		# Members Legitimacy can't fall under 25
 		#country_legitimacy_min_add = 25		#removed and changed as straight legitimacy in creative legislature - blaze
 	}
