@@ -1380,9 +1380,6 @@ principle_divine_economics_1 = {
 	power_bloc_modifier = {
 		# Increased trade route competitiveness for PB trade routes
 		power_bloc_religion_trade_route_competitiveness_mult = 0.5
-		country_bureaucracy_mult = 0.05 #added bureaucracy bonus to mandate - blaze
-		country_consumption_tax_cost_mult = -0.10 #added reduced consumption tax cost - blaze
-		country_decree_cost_mult = -0.05 #added reduced degree cost scaling per level - blaze
 		tax_heathen_add = 1 #added a tax on heathens, we will see if needs balancing furthur - blaze
 	}
 	
