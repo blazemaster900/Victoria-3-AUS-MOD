@@ -1380,12 +1380,15 @@ principle_divine_economics_1 = {
 	power_bloc_modifier = {
 		# Increased trade route competitiveness for PB trade routes
 		power_bloc_religion_trade_route_competitiveness_mult = 0.5
+		country_bureaucracy_mult = 0.05 #added bureaucracy bonus to mandate - blaze
+		country_consumption_tax_cost_mult = -0.05 #added reduced consumption tax cost - blaze
+		country_decree_cost_mult = -0.05 #added reduced degree cost scaling per level - blaze
 	}
 	
-	member_modifier = {
+	#member_modifier = { #Fucking useless - blaze
 		# Higher subject payments from other religions
-		country_subject_income_transfer_heathen_mult = 0.5		
-	}
+		#country_subject_income_transfer_heathen_mult = 0.5		
+	#}
 	
 	ai_weight = {
 		value = 200 # Religious PBs should tend towards picking the religious principles
@@ -1406,6 +1409,9 @@ principle_divine_economics_2 = {
 	power_bloc_modifier = {
 		# Modifiers from previous level(s)		
 		power_bloc_religion_trade_route_competitiveness_mult = 0.5
+		country_bureaucracy_mult = 0.15 #added bureaucracy bonus to mandate - blaze
+		country_consumption_tax_cost_mult = -0.10 #added reduced consumption tax cost - blaze
+		country_decree_cost_mult = -0.20 #added reduced degree cost scaling per level - blaze
 	}
 	
 	member_modifier = {
@@ -1427,6 +1433,9 @@ principle_divine_economics_3 = {
 	power_bloc_modifier = {
 		# Modifiers from previous level(s)		
 		power_bloc_religion_trade_route_competitiveness_mult = 0.5
+		country_bureaucracy_mult = 0.30 #added bureaucracy bonus to mandate - blaze
+		country_consumption_tax_cost_mult = -0.20 #added reduced consumption tax cost - blaze
+		country_decree_cost_mult = -0.30 #added reduced degree cost scaling per level - blaze
 	}
 	
 	member_modifier = {
@@ -1434,7 +1443,7 @@ principle_divine_economics_3 = {
 		country_subject_income_transfer_heathen_mult = 0.5		
 		
 		# Higher wages for state religion pops
-		country_state_religion_wages_mult = 0.25
+		#country_state_religion_wages_mult = 0.25 #removed because bad - blaze
 	
 		# New PM for Financial Districts/Manor Houses unlocked via trigger
 	}
@@ -1581,6 +1590,9 @@ principle_sacred_civics_1 = {
 		# Higher diplomatic acceptance from countries with same state religion
 		# This modifier actually has no effect and is just here to generate a tooltip, the effects are scripted in diplomactic_actions
 		country_higher_diplomatic_acceptance_same_religion_bool = yes
+		interest_group_approval_add = 1 #added IG approval - blaze
+		country_infamy_decay_mult = 0.05 #added some infamy Decay - blaze
+		country_influence_mult = 0.1 #added influence mana mult - blaze
 	}
 	
 	ai_weight = {
@@ -1618,6 +1630,9 @@ principle_sacred_civics_2 = {
 		# Lower liberty desire for subjects with the same religion
 		# This modifier actually has no effect and is just here to generate a tooltip, the effects are scripted in scripted_values
 		country_reduced_liberty_desire_same_religion_bool = yes
+		interest_group_approval_add = 3 #added IG approval - blaze
+		country_infamy_decay_mult = 0.10 #added some infamy Decay - blaze
+		country_influence_mult = 0.15 #added influence mana mult - blaze
 	}
 	
 	ai_weight = {
@@ -1633,6 +1648,9 @@ principle_sacred_civics_3 = {
 		# Modifiers from previous level(s)		
 		country_higher_diplomatic_acceptance_same_religion_bool = yes
 		country_reduced_liberty_desire_same_religion_bool = yes
+		interest_group_approval_add = 5 #added IG approval - blaze
+		country_infamy_decay_mult = 0.15 #added some infamy Decay - blaze
+		country_influence_mult = 0.20 #added influence mana mult - blaze
 	}
 
 	leader_modifier = {
