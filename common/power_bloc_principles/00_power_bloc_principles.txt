@@ -1389,7 +1389,7 @@ principle_divine_economics_1 = {
 		#country_subject_income_transfer_heathen_mult = 0.5		
 		country_bureaucracy_mult = 0.05 #added bureaucracy bonus to mandate - blaze
 		country_consumption_tax_cost_mult = -0.10 #added reduced consumption tax cost - blaze
-		tax_heathen_add = 1 #added a tax on heathens, we will see if needs balancing furthur - blaze
+		tax_heathen_add = 2 #added a tax on heathens, we will see if needs balancing furthur - blaze
 	}
 	
 	ai_weight = {
@@ -1411,16 +1411,15 @@ principle_divine_economics_2 = {
 	power_bloc_modifier = {
 		# Modifiers from previous level(s)		
 		power_bloc_religion_trade_route_competitiveness_mult = 0.5
-		country_bureaucracy_mult = 0.15 #added bureaucracy bonus to mandate - blaze
-		country_consumption_tax_cost_mult = -0.20 #added reduced consumption tax cost - blaze
-		country_decree_cost_mult = -0.20 #added reduced degree cost scaling per level - blaze
-		tax_heathen_add = 2 #added a tax on heathens, we will see if needs balancing furthur - blaze
 	}
 	
 	member_modifier = {
 		# Modifiers from previous level(s)		
 		country_subject_income_transfer_heathen_mult = 0.5
-
+		country_bureaucracy_mult = 0.15 #added bureaucracy bonus to mandate - blaze
+		country_consumption_tax_cost_mult = -0.20 #added reduced consumption tax cost - blaze
+		country_decree_cost_mult = -0.20 #added reduced degree cost scaling per level - blaze
+		tax_heathen_add = 4 #added a tax on heathens, we will see if needs balancing furthur - blaze
 		# New PM for Financial Districts/Manor Houses unlocked via trigger
 	}	
 	
@@ -1436,7 +1435,6 @@ principle_divine_economics_3 = {
 	power_bloc_modifier = {
 		# Modifiers from previous level(s)		
 		power_bloc_religion_trade_route_competitiveness_mult = 0.5
-		tax_heathen_add = 3 #added a tax on heathens, we will see if needs balancing furthur - blaze
 		state_{slaves}_investment_pool_efficiency_mult = 0.2 #for da meme - blaze
 	}
 	
@@ -1446,6 +1444,7 @@ principle_divine_economics_3 = {
 		country_bureaucracy_mult = 0.30 #added bureaucracy bonus to mandate - blaze
 		country_consumption_tax_cost_mult = -0.30 #added reduced consumption tax cost - blaze
 		country_decree_cost_mult = -0.30 #added reduced degree cost scaling per level - blaze
+		tax_heathen_add = 8 #added a tax on heathens, we will see if needs balancing furthur - blaze
 		# Higher wages for state religion pops
 		#country_state_religion_wages_mult = 0.25 #removed because bad - blaze
 	
