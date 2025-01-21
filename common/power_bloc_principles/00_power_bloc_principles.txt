@@ -411,7 +411,7 @@ principle_defensive_cooperation_1 = {
 		# Members cannot start wars amongst each other
 		power_bloc_disallow_war_bool = yes #Its whatever i will leave it - blaze
 		country_war_exhaustion_casualties_mult = -0.10 #Added modifer to defensive cooperation on the defense the people will never surrender! (yes its cringe) - Blaze
-		unit_army_defense_mult = 0.025 #Added a very slight amount of defensive bonus to defensive coordination - blaze
+		battle_defense_owned_province_mult = 0.05 #Added a very slight amount of defensive bonus to defensive coordination - blaze
 		unit_morale_recovery_mult = 0.05 #Added some morale recovery, they fight in the defense of the motherland, there will be no surrender, no concessions! - blaze
 	}
 	
@@ -452,7 +452,7 @@ principle_defensive_cooperation_2 = {
 		# Modifiers from previous level(s)
 		power_bloc_disallow_war_bool = yes
 		country_war_exhaustion_casualties_mult = -0.15 #Added modifer to defensive cooperation on the defense the people will never surrender! (yes its cringe) - Blaze
-		unit_army_defense_mult = 0.05 #Added a very slight amount of defensive bonus to defensive coordination
+		battle_defense_owned_province_mult = 0.10 #Added a very slight amount of defensive bonus to defensive coordination
 		# Swaying members to join your side costs 50% less maneuvers if the inviting country is on the target's side
 		power_bloc_target_sway_cost_mult = -0.5
 		unit_morale_recovery_mult = 0.10 #Added some morale recovery, they fight in the defense of the motherland, there will be no surrender, no concessions! - blaze
@@ -482,7 +482,7 @@ principle_defensive_cooperation_3 = {
 		power_bloc_disallow_war_bool = yes
 		power_bloc_target_sway_cost_mult = -0.5
 		country_war_exhaustion_casualties_mult = -0.20 #Added modifer to defensive cooperation on the defense the people will never surrender! (yes its cringe) - Blaze
-		unit_army_defense_mult = 0.10 #Added a very slight amount of defensive bonus to defensive coordination
+		battle_defense_owned_province_mult = 0.15 #Added a very slight amount of defensive bonus to defensive coordination
 		unit_morale_recovery_mult = 0.15 #Added some morale recovery, they fight in the defense of the motherland, there will be no surrender, no concessions! - blaze
 	}
 	
@@ -1389,7 +1389,7 @@ principle_divine_economics_1 = {
 		#country_subject_income_transfer_heathen_mult = 0.5		
 		country_bureaucracy_mult = 0.05 #added bureaucracy bonus to mandate - blaze
 		country_consumption_tax_cost_mult = -0.10 #added reduced consumption tax cost - blaze
-		tax_heathen_add = 2 #added a tax on heathens, we will see if needs balancing furthur - blaze
+		tax_heathen_add = 0.5 #added a tax on heathens, we will see if needs balancing furthur - blaze
 	}
 	
 	ai_weight = {
@@ -1419,7 +1419,7 @@ principle_divine_economics_2 = {
 		country_bureaucracy_mult = 0.15 #added bureaucracy bonus to mandate - blaze
 		country_consumption_tax_cost_mult = -0.20 #added reduced consumption tax cost - blaze
 		country_decree_cost_mult = -0.20 #added reduced degree cost scaling per level - blaze
-		tax_heathen_add = 4 #added a tax on heathens, we will see if needs balancing furthur - blaze
+		tax_heathen_add = 1 #added a tax on heathens, we will see if needs balancing furthur - blaze
 		# New PM for Financial Districts/Manor Houses unlocked via trigger
 	}	
 	
@@ -1444,7 +1444,7 @@ principle_divine_economics_3 = {
 		country_bureaucracy_mult = 0.30 #added bureaucracy bonus to mandate - blaze
 		country_consumption_tax_cost_mult = -0.30 #added reduced consumption tax cost - blaze
 		country_decree_cost_mult = -0.30 #added reduced degree cost scaling per level - blaze
-		tax_heathen_add = 8 #added a tax on heathens, we will see if needs balancing furthur - blaze
+		tax_heathen_add = 1.75 #added a tax on heathens, we will see if needs balancing furthur - blaze
 		# Higher wages for state religion pops
 		#country_state_religion_wages_mult = 0.25 #removed because bad - blaze
 	
