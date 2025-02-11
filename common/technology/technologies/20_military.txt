@@ -20,7 +20,7 @@ navigation = {
 	category = military    
 	
 	modifier = {
-		state_building_port_max_level_add = 2
+		state_building_port_max_level_add = 5 #increased max level port added from 2 -> 5 - blaze
     }
 	
 	ai_weight = {
@@ -35,7 +35,7 @@ drydocks = {
 	category = military
 	
 	modifier = {
-		state_building_port_max_level_add = 3
+		state_building_port_max_level_add = 5 #increased max level port added from 3 -> 6 - blaze
 	}
 	
 	unlocking_technologies = {	
@@ -412,7 +412,7 @@ hydraulic_cranes = {
 	category = military
 	
 	modifier = {
-		state_building_port_max_level_add = 3
+		state_building_port_max_level_add = 8 #increased max level port added from 3 -> 8 - blaze
 	}
 	
 	unlocking_technologies = {	
@@ -669,7 +669,7 @@ floating_harbor = {
 	category = military
 	
 	modifier = {
-		state_building_port_max_level_add = 4
+		state_building_port_max_level_add = 8 #increased max level port added from 4 -> 8 - blaze
 	}
 	
 	unlocking_technologies = {	
@@ -694,7 +694,7 @@ gantry_cranes = {
 	category = military
 	
 	modifier = {
-		state_building_port_max_level_add = 4
+		state_building_port_max_level_add = 8 #increased max level port added from 4 -> 8 - blaze
 	}
 	
 	unlocking_technologies = {	
@@ -942,7 +942,7 @@ concrete_dockyards = {
 	category = military
 	
 	modifier = {
-		state_building_port_max_level_add = 4
+		state_building_port_max_level_add = 10 #increased max level port added from 4 -> 10 - blaze
 	}
 	
 	unlocking_technologies = {	
