@@ -10,7 +10,7 @@ ammunition = {
 	texture = "gfx/interface/icons/goods_icons/ammunition.dds"
 	cost = 50
 	category = military
-	convoy_cost_multiplier = 0.75 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 	prestige_factor = 5
 }
 
@@ -18,7 +18,7 @@ small_arms = {
 	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
 	cost = 60
 	category = military
-	convoy_cost_multiplier = 0.75 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 	obsession_chance = 0.5
 	prestige_factor = 5
 }
@@ -30,7 +30,7 @@ artillery = {
 	
 	prestige_factor = 5
 	traded_quantity = 3.5
-	convoy_cost_multiplier = 0.75 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 }
 
 tanks = {
@@ -40,7 +40,7 @@ tanks = {
 	
 	prestige_factor = 10
 	traded_quantity = 3
-	convoy_cost_multiplier = 0.75 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.20 #Lowered Covoy Cost - Blaze
 }
 
 aeroplanes = {
@@ -51,7 +51,7 @@ aeroplanes = {
 	obsession_chance = 0.5
 	prestige_factor = 10
 	traded_quantity = 3
-	convoy_cost_multiplier = 0.75 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.15 #Lowered Covoy Cost - Blaze
 }
 
 manowars = {
@@ -61,7 +61,7 @@ manowars = {
 	
 	prestige_factor = 5
 	traded_quantity = 2.5
-	convoy_cost_multiplier = 0.25 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.01 #Lowered Covoy Cost - Blaze
 }
 
 ironclads = {
@@ -71,7 +71,7 @@ ironclads = {
 	
 	prestige_factor = 10
 	traded_quantity = 2.5
-	convoy_cost_multiplier = 0.25 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.01 #Lowered Covoy Cost - Blaze
 }
 
 ##########
@@ -86,7 +86,7 @@ grain = {
 	prestige_factor = 3
 	
 	traded_quantity = 10
-	convoy_cost_multiplier = 0.25
+	convoy_cost_multiplier = 0.05
 	
 	consumption_tax_cost = 500
 }
@@ -99,7 +99,7 @@ fish = {
 	prestige_factor = 3
 	
 	traded_quantity = 10
-	convoy_cost_multiplier = 0.25
+	convoy_cost_multiplier = 0.05
 	
 	consumption_tax_cost = 300
 }
@@ -112,7 +112,7 @@ fabric = {
 	prestige_factor = 3
 	
 	traded_quantity = 10
-	convoy_cost_multiplier = 0.25
+	convoy_cost_multiplier = 0.05
 	
 	consumption_tax_cost = 300
 }
@@ -125,7 +125,7 @@ wood = {
 	prestige_factor = 3
 	
 	traded_quantity = 10
-	convoy_cost_multiplier = 0.25
+	convoy_cost_multiplier = 0.05
 	
 	consumption_tax_cost = 300
 }
@@ -138,7 +138,7 @@ groceries = {
 	prestige_factor = 4
 	
 	traded_quantity = 7.5
-	convoy_cost_multiplier = 0.25 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.05 #Lowered Covoy Cost - Blaze
 	
 	consumption_tax_cost = 300
 }
@@ -151,7 +151,7 @@ clothes = {
 	prestige_factor = 4
 	
 	traded_quantity = 7.5
-	convoy_cost_multiplier = 0.25 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.05 #Lowered Covoy Cost - Blaze
 	
 	consumption_tax_cost = 300
 }
@@ -164,7 +164,7 @@ furniture = {
 	prestige_factor = 4
 	
 	traded_quantity = 7.5
-	convoy_cost_multiplier = 0.25 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.05 #Lowered Covoy Cost - Blaze
 	
 	consumption_tax_cost = 300
 }
@@ -177,7 +177,7 @@ paper = {
 	prestige_factor = 4
 	
 	traded_quantity = 7.5
-	convoy_cost_multiplier = 0.25 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.05 #Lowered Covoy Cost - Blaze
 	
 	consumption_tax_cost = 200
 }
@@ -227,7 +227,7 @@ clippers = {
 	obsession_chance = 0.5
 	prestige_factor = 5
 	traded_quantity = 3.5
-	convoy_cost_multiplier = 0.25
+	convoy_cost_multiplier = 0.01
 }
 
 steamers = {
@@ -238,14 +238,14 @@ steamers = {
 	obsession_chance = 0.5
 	prestige_factor = 5
 	traded_quantity = 3.5
-	convoy_cost_multiplier = 0.25
+	convoy_cost_multiplier = 0.01
 }
 
 silk = {
 	texture = "gfx/interface/icons/goods_icons/silk.dds"
 	cost = 40
 	category = industrial
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 	prestige_factor = 5
 }
 
@@ -253,7 +253,7 @@ dye = {
 	texture = "gfx/interface/icons/goods_icons/dye.dds"
 	cost = 40
 	category = industrial
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 	prestige_factor = 5
 }
 
@@ -261,7 +261,7 @@ sulfur = {
 	texture = "gfx/interface/icons/goods_icons/sulfur.dds"
 	cost = 50
 	category = industrial
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 	prestige_factor = 5
 }
 
@@ -273,7 +273,7 @@ coal = {
 	prestige_factor = 5
 	
 	traded_quantity = 7.5
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 	
 	consumption_tax_cost = 200
 }
@@ -282,7 +282,7 @@ iron = {
 	texture = "gfx/interface/icons/goods_icons/iron.dds"
 	cost = 40
 	category = industrial
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 	prestige_factor = 5
 }
 
@@ -290,7 +290,7 @@ lead = {
 	texture = "gfx/interface/icons/goods_icons/lead.dds"
 	cost = 40
 	category = industrial
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 	prestige_factor = 5
 }
 
@@ -298,7 +298,7 @@ hardwood = {
 	texture = "gfx/interface/icons/goods_icons/hardwood.dds"
 	cost = 40
 	category = industrial
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.05 #Lowered Covoy Cost - Blaze
 	prestige_factor = 5
 }
 
@@ -306,7 +306,7 @@ rubber = {
 	texture = "gfx/interface/icons/goods_icons/rubber.dds"
 	cost = 40
 	category = industrial
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.05 #Lowered Covoy Cost - Blaze
 	prestige_factor = 5
 }
 
@@ -314,7 +314,7 @@ oil = {
 	texture = "gfx/interface/icons/goods_icons/oil.dds"
 	cost = 40
 	category = industrial
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 	prestige_factor = 5
 	
 	consumption_tax_cost = 200
@@ -328,14 +328,14 @@ engines = {
 	prestige_factor = 10
 	
 	traded_quantity = 4
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.20 #Lowered Covoy Cost - Blaze
 }
 
 steel = {
 	texture = "gfx/interface/icons/goods_icons/steel.dds"
 	cost = 50
 	category = industrial
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 	prestige_factor = 5
 }
 
@@ -343,7 +343,7 @@ glass = {
 	texture = "gfx/interface/icons/goods_icons/glass.dds"
 	cost = 40
 	category = industrial
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 	prestige_factor = 5
 }
 
@@ -351,7 +351,7 @@ fertilizer = {
 	texture = "gfx/interface/icons/goods_icons/fertilizer.dds"
 	cost = 30
 	category = industrial
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 	prestige_factor = 5
 	
 	traded_quantity = 7.5
@@ -361,7 +361,7 @@ tools = {
 	texture = "gfx/interface/icons/goods_icons/tools.dds"
 	cost = 40
 	category = industrial
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 	prestige_factor = 5
 }
 
@@ -373,7 +373,7 @@ explosives = {
 	prestige_factor = 10
 	
 	traded_quantity = 4
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 }
 
 ##########
@@ -387,7 +387,7 @@ porcelain = {
 	
 	obsession_chance = 1.0
 	prestige_factor = 5
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 }
 
 meat = {
@@ -399,7 +399,7 @@ meat = {
 	prestige_factor = 4
 	
 	traded_quantity = 7.5
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.05 #Lowered Covoy Cost - Blaze
 	
 	consumption_tax_cost = 200
 }
@@ -413,7 +413,7 @@ fruit = {
 	prestige_factor = 4
 	
 	traded_quantity = 7.5
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.05 #Lowered Covoy Cost - Blaze
 	
 	consumption_tax_cost = 200
 }
@@ -427,7 +427,7 @@ liquor = {
 	prestige_factor = 4
 	
 	traded_quantity = 7.5
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.05 #Lowered Covoy Cost - Blaze
 }
 
 wine = {
@@ -437,7 +437,7 @@ wine = {
 	
 	obsession_chance = 2.0
 	prestige_factor = 5
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 }
 
 tea = {
@@ -447,7 +447,7 @@ tea = {
 	
 	obsession_chance = 1.5
 	prestige_factor = 4
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 }
 
 coffee = {
@@ -457,7 +457,7 @@ coffee = {
 	
 	obsession_chance = 1.5
 	prestige_factor = 4
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 }
 
 sugar = {
@@ -469,7 +469,7 @@ sugar = {
 	prestige_factor = 4
 	
 	traded_quantity = 7.5
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.05 #Lowered Covoy Cost - Blaze
 }
 
 tobacco = {	
@@ -479,7 +479,7 @@ tobacco = {
 	
 	obsession_chance = 2.0
 	prestige_factor = 4
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.05 #Lowered Covoy Cost - Blaze
 }
 
 opium = {
@@ -489,14 +489,14 @@ opium = {
 	
 	obsession_chance = 2.0
 	prestige_factor = 4
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 }
 
 automobiles = {
 	texture = "gfx/interface/icons/goods_icons/automobiles.dds"
 	cost = 100
 	category = luxury
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.20 #Lowered Covoy Cost - Blaze
 	obsession_chance = 1.0
 	prestige_factor = 10
 	traded_quantity = 4
@@ -508,7 +508,7 @@ telephones = {
 	texture = "gfx/interface/icons/goods_icons/telephones.dds"
 	cost = 70
 	category = luxury
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 	obsession_chance = 1.0
 	prestige_factor = 10
 }
@@ -517,7 +517,7 @@ radios = {
 	texture = "gfx/interface/icons/goods_icons/radios.dds"
 	cost = 80 
 	category = luxury
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 	obsession_chance = 1.0
 	prestige_factor = 10
 }
@@ -529,7 +529,7 @@ luxury_clothes = {
 	
 	obsession_chance = 1.0
 	prestige_factor = 10
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 }
 
 luxury_furniture = {
@@ -539,7 +539,7 @@ luxury_furniture = {
 	
 	obsession_chance = 1.0
 	prestige_factor = 10
-	convoy_cost_multiplier = 0.5 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.10 #Lowered Covoy Cost - Blaze
 }
 
 gold = {
@@ -555,7 +555,7 @@ fine_art = {
 	texture = "gfx/interface/icons/goods_icons/fine_art.dds"
 	cost = 200
 	category = luxury
-	convoy_cost_multiplier = 0.25 #Lowered Covoy Cost - Blaze
+	convoy_cost_multiplier = 0.05 #Lowered Covoy Cost - Blaze
 	obsession_chance = 1.0
 	prestige_factor = 15
 	
