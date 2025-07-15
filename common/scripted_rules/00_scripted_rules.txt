@@ -114,10 +114,9 @@ unlock_power_bloc_principle_slot_3 = {
 		hidden_trigger = {
 			used_principle_slots >= 3
 		}
-		#AND = {
-		#	power_bloc_rank <= 5
-		#	num_power_bloc_members >= 5
-		#}
+		AND = {
+		 num_power_bloc_members >= 1
+		}
 	}
 }
 
@@ -130,10 +129,9 @@ unlock_power_bloc_principle_slot_4 = {
 		hidden_trigger = {
 			used_principle_slots = 4
 		}
-		#AND = {
-		#	power_bloc_rank <= 3
-		#	num_power_bloc_members >= 10
-		#}
+		AND = {
+		 num_power_bloc_members >= 1
+		}
 	}
 }
 
@@ -146,11 +144,11 @@ unlock_power_bloc_formation_principle_slot_2 = {
 }
 
 unlock_power_bloc_formation_principle_slot_3 = {
-	always = yes
+	always = no
 }
 
 unlock_power_bloc_formation_principle_slot_4 = {
-	always = yes
+	always = no
 }
 
 
