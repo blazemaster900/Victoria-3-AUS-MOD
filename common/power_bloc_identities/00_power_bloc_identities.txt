@@ -540,23 +540,23 @@ identity_military_treaty_organization = {
 			desc = POWER_BLOC_COHESION_SHARE_POWER_PROJECTION
 		}
 
-		add = {
-			if = {
-				limit = { exists = scope:with_country }
-				add = "scope:power_bloc.power_bloc_worst_infamy_with(scope:with_country)"
-			}
-			else_if = {
-				limit = { exists = scope:without_country }
-				add = "scope:power_bloc.power_bloc_worst_infamy_without(scope:without_country)"
-			}
-			else = {
-				add = scope:power_bloc.power_bloc_worst_infamy
-			}
-			divide = define:NDiplomacy|INFAMY_THRESHOLD_PARIAH
-			multiply = -1
-			multiply = define:NPowerBlocs|COHESION_TARGET_MAX
-			desc = POWER_BLOC_COHESION_WORST_INFAMY
-		}
+		#add = { #Removed Malus to military Treaty cohesion from infamy because thats stupid - blaze
+		#	if = {
+		#		limit = { exists = scope:with_country }
+		#		add = "scope:power_bloc.power_bloc_worst_infamy_with(scope:with_country)"
+		#	}
+		#	else_if = {
+		#		limit = { exists = scope:without_country }
+		#		add = "scope:power_bloc.power_bloc_worst_infamy_without(scope:without_country)"
+		#	}
+		#	else = {
+		#		add = scope:power_bloc.power_bloc_worst_infamy
+		#	}
+		#	divide = define:NDiplomacy|INFAMY_THRESHOLD_PARIAH
+		#	multiply = -1
+		#	multiply = define:NPowerBlocs|COHESION_TARGET_MAX
+		#	desc = POWER_BLOC_COHESION_WORST_INFAMY
+		#}
 
 		add = {
 			if = {
