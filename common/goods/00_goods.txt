@@ -206,8 +206,7 @@ electricity = {
 	texture = "gfx/interface/icons/goods_icons/electricity.dds"
 	cost = 30
 	category = staple
-	local = yes
-
+	tradeable = no #made electricity global and not tradeable
 	consumption_tax_cost = 200
 }
 
