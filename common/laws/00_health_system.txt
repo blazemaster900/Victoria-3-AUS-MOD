@@ -34,12 +34,13 @@ law_charitable_health_system = {
 
 	modifier = {
 		country_institution_cost_institution_health_system_mult = -0.2
+		country_institution_health_system_max_investment_add = 2 #made charity hospitals not complete trash. - blaze
 	}
 
 	institution = institution_health_system
 	institution_modifier = {
 		state_mortality_mult = -0.03
-		interest_group_ig_devout_pol_str_mult = 0.1
+		interest_group_ig_devout_pol_str_mult = 0.05 #made it so church wont destroy your igs when u go up levels. - blaze
 		state_pollution_reduction_health_mult = -0.1
 		state_food_security_add = 0.02
 	}
