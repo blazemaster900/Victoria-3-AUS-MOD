@@ -1,0 +1,39 @@
+keep
+hawaiian
+australian
+dutch
+
+
+minority_polynesian (CHECK PNS)
+maori
+melanesian
+polynesian
+micronesian
+yuanzhumin
+aborigine
+
+
+maori =  keep UNT for australia
+aborigine = keep KAU For australia 
+
+
+minority_melayu (check IDN)
+bornean
+sumatran
+moluccan
+malay
+moro
+balinese
+javan
+batak
+dayak
+
+minority_siberian
+ainu
+siberian
+
+
+
+
+
+

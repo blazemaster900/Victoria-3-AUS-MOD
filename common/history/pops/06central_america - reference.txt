@@ -1,0 +1,26 @@
+﻿minority_central_american
+mayan
+miskito
+
+minority_south_american
+cariban
+
+minority_spanish
+central_american (first)
+caribeno (check afro)
+
+keep
+british
+polish
+danish
+french
+dutch
+spanish
+afro_antillean
+afro_caribbean
+afro_american
+afro_caribeno
+north_andean
+
+
+

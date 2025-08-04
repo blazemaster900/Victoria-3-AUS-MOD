@@ -1,0 +1,98 @@
+minority_east_african
+somali  (land)
+beja
+nuer
+nuba
+dinka
+fur (land)
+sudanese
+kikuyu
+swahili
+sudanese (X)
+baganda
+luo (State)
+fluvian_bantu
+maasai
+sukuma
+unyamwezi
+ruanda
+rundi
+nilotic
+azande
+
+minority_west_african
+bambara
+tuareg
+bidan
+haratin
+fulbe
+mande
+senufo
+songhai
+hausa (land)
+akan
+mande
+dyula
+kru (state)
+wolof
+yoruba (land)
+kissi
+mossi
+bassa
+edo (bedouin)
+ibo (country)
+tiv (country)
+ibibio
+fon
+ewe (country)
+
+minority_central_african
+equatorial_bantu
+teda
+kanuri
+bakongo
+baguirmi
+fang
+luba
+lunda
+mongo
+sara
+lacustrine_bantu
+
+
+minority_midde_east (formation check!)
+bedouin
+misri
+berber -keep
+maghrebi -keep
+mashriqi (X)
+
+
+
+minority_southern_african
+chewa
+makua
+nguni
+sena
+shona
+sotho
+tonga
+tswana (land)
+yao
+zulu (land)
+kavango_bantu
+ovimbundu
+khoisan
+xhosa
+lomwe
+herero (land)
+
+minority_ethiopian
+amhara (land)
+afar
+oromo
+sidama
+tigray
+
+british -keep
+boer -keep

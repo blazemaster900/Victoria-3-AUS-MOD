@@ -1,0 +1,147 @@
+minority_scandinavian
+SCA +
+DEN +
+FIN +
+NOR +
+SWE +
+SCN +
+ICL +
+JAN +
+GRN +
+SCH +
+
+
+minority_south_american
+quechua
+amazonian
+guajiro
+aimara
+muisca
+guarani
+patagonian
+tupinamba
+cariban
+
+minority_north_american
+iroquoian
+inuit
+nez_perce
+salish
+paiute
+siouan
+apache
+dakota(check state)
+caddoan
+cherokee -keep
+athabaskan
+algonquian
+muskogean
+navajo
+cree
+metis
+oodham
+comanche
+pueblo
+
+minority_central_american
+mayan
+miskito
+hokan (X)
+nahua
+tarascan
+zapotec
+mixtec
+
+minority_spanish
+central_american (check minority_central_american)
+caribeno (check afro)
+mexican
+
+
+-han-
+lan hakka -> han
+
+Do not change the culture of the east asian people, because if you do, the liberated country will collapse.
+
+
+minority_melayu (check IDN)
+bornean
+sumatran
+moluccan
+malay (check state)(check culutre malayalam)
+moro
+balinese
+javan
+batak
+dayak
+
+
+-thai-
+shan (check state)
+lao (check state)
+
+-burmese-
+karen
+kachin (check state)
+lushai
+
+-khmer-
+mon (check mongol)
+khmu
+
+
+minority_midde_east
+yemenite
+bedouin
+mashriqi
+misri
+
+minority_indian
+assamese
+bengali (keep for event)
+bihari
+manipuri
+nepali
+oriya
+sinhala
+avadhi
+kanauji
+panjabi
+kashmiri
+gujarati
+marathi
+sindi
+rajput (check state)
+kannada
+malayalam
+tamil
+telegu
+hindustani
+bundeli
+pahari
+deccani
+gondi
+chhattisgarhi
+bageli
+kho  ( Chitral)
+
+minority_central_asian
+uzbek (check state)
+kazak (keep for russia event)
+kirgiz
+tajik (-> pashtun) (check state)
+pashtun (keep for formation)
+uighur
+baluchi (keep for formation)
+hazara
+turkmen (check state)
+tatar
+kalmyk (check state)
+pathan (keep for formation)
+
+ 
+minority_west_slavic
+++polish TAG
+
+minority_iberian
++ IBE TAG
