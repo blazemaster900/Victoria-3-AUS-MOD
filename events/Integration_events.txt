@@ -1,0 +1,137 @@
+﻿namespace = Integration_events
+
+
+#natives
+Integration_events.1 = {
+	type = country_event
+	hidden = yes
+
+	trigger = { is_player = yes }
+
+	immediate = {
+		#country primal culture integration
+		every_country = {
+			integrate_native_culture_custom_1 = yes
+		}
+		#country pop& home integration
+		every_state = {
+			integrate_native_homeland_custom_1 = yes
+			integrate_native_pop_custom_1 = yes
+		}
+	}
+}
+
+#East & SouthEast Asia
+Integration_events.2 = {
+	type = country_event
+	hidden = yes
+
+	trigger = { is_player = yes }
+
+	immediate = {
+		#country primal culture integration
+		every_country = {
+			integrate_east_south_culture_custom_1 = yes
+		}
+		#country pop& home integration
+		every_state = {
+			integrate_east_south_homeland_custom_1 = yes
+			integrate_east_south_pop_custom_1 = yes
+		}
+	}
+}
+
+#india
+Integration_events.3 = {
+	type = country_event
+	hidden = yes
+
+	trigger = { is_player = yes }
+
+	immediate = {
+		#country primal culture integration
+		every_country = {
+			integrate_india_culture_custom_1 = yes
+		}
+		#country pop& home integration
+		every_state = {
+			integrate_india_homeland_custom_1 = yes
+			integrate_india_pop_custom_1 = yes
+		}
+	}
+}
+
+
+#arab
+Integration_events.4 = {
+	type = country_event
+	hidden = yes
+
+	trigger = { is_player = yes }
+
+	immediate = {
+		#country primal culture integration
+		every_country = {
+			integrate_arab_culture_custom_1 = yes
+		}
+		#country pop& home integration
+		every_state = {
+			integrate_arab_homeland_custom_1 = yes
+			integrate_arab_pop_custom_1 = yes
+		}
+	}
+}
+
+
+#europe
+Integration_events.5 = {
+	type = country_event
+	hidden = yes
+
+	trigger = { is_player = yes }
+
+	immediate = {
+		#country primal culture integration
+		every_country = {
+			integrate_europe_culture_custom_1 = yes
+		}
+		#country pop& home integration
+		every_state = {
+			integrate_europe_homeland_custom_1 = yes
+			integrate_europe_pop_custom_1 = yes
+		}
+	}
+}
+
+
+#all
+Integration_events.6 = {
+	type = country_event
+	hidden = yes
+
+	trigger = { is_player = yes }
+
+	immediate = {
+		#country primal culture integration
+		every_country = {
+			integrate_native_culture_custom_1 = yes
+			integrate_east_south_culture_custom_1 = yes
+			integrate_india_culture_custom_1 = yes
+			integrate_arab_culture_custom_1 = yes
+			integrate_europe_culture_custom_1 = yes
+		}
+		#country pop& home integration
+		every_state = {
+			integrate_native_homeland_custom_1 = yes
+			integrate_east_south_homeland_custom_1 = yes
+			integrate_india_homeland_custom_1 = yes
+			integrate_arab_homeland_custom_1 = yes
+			integrate_europe_homeland_custom_1 = yes
+			integrate_native_pop_custom_1 = yes
+			integrate_east_south_pop_custom_1 = yes
+			integrate_india_pop_custom_1 = yes
+			integrate_arab_pop_custom_1 = yes
+			integrate_europe_pop_custom_1 = yes
+		}
+	}
+}

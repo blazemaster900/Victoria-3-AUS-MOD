@@ -1,0 +1,104 @@
+integrate_europe_homeland_custom_1 = {
+   
+
+   # baltic
+	if = {
+    limit = { state_region = {
+		OR = {
+			is_homeland = cu:estonian
+			is_homeland = cu:latvian
+			is_homeland = cu:lithuanian
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:minority_baltic
+	}
+	}  
+ # russian
+	if = {
+    limit = { state_region = {
+		OR = {
+			is_homeland = cu:byelorussian
+			is_homeland = cu:ukrainian
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:russian
+	}
+	}
+   # west slavic
+	if = {
+    limit = { state_region = {
+		OR = {
+			is_homeland = cu:czech
+			is_homeland = cu:slovak
+			is_homeland = cu:sorb
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:polish
+	}
+	}
+
+   # iberian
+	if = {
+    limit = { state_region = {
+		OR = {
+			is_homeland = cu:basque
+			is_homeland = cu:galician
+			is_homeland = cu:catalan
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:minority_iberian
+	}
+	}
+
+   # scandinavian
+	if = {
+    limit = { state_region = {
+		OR = {
+			is_homeland = cu:norwegian
+			is_homeland = cu:icelandic
+			is_homeland = cu:danish
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:swedish
+			remove_homeland = cu:norwegian
+			remove_homeland = cu:icelandic
+			remove_homeland = cu:danish
+	}
+	}
+   # hungary
+	if = {
+    limit = { state_region = {
+		OR = {
+			is_homeland = cu:szekely
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:hungary
+			remove_homeland = cu:szekely
+	}
+	}
+   # freance
+	if = {
+    limit = { state_region = {
+		OR = {
+			is_homeland = cu:occitan
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:franch
+	}
+	}
+
+}

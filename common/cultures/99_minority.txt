@@ -520,7 +520,7 @@ minority_north_american={
 minority_indian={
 	color= hsv{ 0.79 0.37 0.36 }
 	religion = hindu
-	traits = { dravidian south_asian_heritage indo_aryan_language }
+	traits = { south_asian_heritage indo_aryan_language }
 	male_common_first_names={
 		Ahmad
 		Alauddin
@@ -576,6 +576,58 @@ minority_indian={
 	}
 	graphics = asian
 }
+
+minority_SouthIndian={
+	color= hsv{ 0.72 0.51 0.66 }
+	religion = hindu
+	traits = { south_asian_heritage dravidian }
+	male_common_first_names = {
+		Abbakka
+		Aliya
+		Amoghavarasha
+		Basaveshwara
+		Bijjala
+		Chennamma
+		Guvida
+		Harihara
+		Kempe
+		Krishnadeva
+		Krisnaraja
+		Mayuravarma
+		Pulakesi
+		Rani
+		Sagolli
+		Tailapa
+		Veera
+		Vikramaditya
+		Vishnuvardhana
+	}
+	female_common_first_names = {
+		Chindodi
+		Manjula
+		Saraswati
+	}
+	noble_last_names = {
+		Hegde
+		Narayan
+		Rama_Raya
+	}
+	common_last_names = {
+		Ballala
+		Bibi
+		Gowda
+		Nayaka
+		Rani
+		Raya
+		Rayanna
+		Wodeyar
+	}
+	ethnicities = {
+		1 = indian
+	}
+	graphics = south_asian
+}
+
 
 minority_melayu={
 	color= hsv{ 0.33 0.10 0.74 }
@@ -1001,7 +1053,7 @@ minority_caucasian={
 	graphics = european
 }
 
-minority_midde_east={
+minority_middle_east={
 	color= rgb{ 154 164 89 }
 	religion = sunni
 	obsessions = {

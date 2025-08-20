@@ -1,0 +1,90 @@
+integrate_europe_pop_custom_1 = {
+   every_scope_pop = {
+   
+   #baltic
+	if = {
+    limit ={
+		OR = {
+			culture = cu:estonian
+			culture = cu:latvian
+			culture = cu:lithuanian
+		}
+    }
+     change_pop_culture = { target = cu:minority_baltic value = 1 }
+	}
+
+   # russian
+	if = {
+    limit ={
+		OR = {
+			culture = cu:byelorussian
+			culture = cu:ukrainian
+		}
+    }
+     change_pop_culture = { target = cu:russian value = 1 }
+	}
+
+   # west slavic
+	if = {
+    limit ={
+		OR = {
+			culture = cu:polish
+			culture = cu:czech
+			culture = cu:slovak
+			culture = cu:sorb
+		}
+    }
+     change_pop_culture = { target = cu:polish value = 1 }
+	}
+
+   #iberian
+	if = {
+    limit ={
+		OR = {
+			culture = cu:basque
+			culture = cu:galician
+			culture = cu:catalan
+		}
+    }
+     change_pop_culture = { target = cu:minority_iberian value = 1 }
+	}
+
+
+   #scandinavian
+	if = {
+    limit ={
+		OR = {
+			culture = cu:swedish
+			culture = cu:norwegian
+			culture = cu:icelandic
+			culture = cu:danish
+		}
+    }
+     change_pop_culture = { target = cu:swedish value = 1 }
+	}
+
+   #hungary
+	if = {
+    limit ={
+		OR = {
+			culture = cu:szekely
+		}
+    }
+     change_pop_culture = { target = cu:hungary value = 1 }
+	}
+
+   #france
+	if = {
+    limit ={
+		OR = {
+			culture = cu:occitan
+		}
+    }
+     change_pop_culture = { target = cu:french value = 1 }
+	}
+
+
+
+
+}
+}

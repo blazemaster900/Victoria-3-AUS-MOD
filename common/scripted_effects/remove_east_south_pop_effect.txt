@@ -1,0 +1,81 @@
+integrate_east_south_pop_custom_1 = {
+   every_scope_pop = {
+   
+   # East asian (minortiy)
+	if = {
+    limit ={
+		OR = {
+			culture = cu:miao
+			culture = cu:zhuang
+			culture = cu:yi
+		}
+    }
+     change_pop_culture = { target = cu:minority_east_asian value = 1 }
+	}
+
+   # han
+	if = {
+    limit ={
+		OR = {
+			culture = cu:min
+			culture = cu:yue
+			culture = cu:hakka
+		}
+    }
+     change_pop_culture = { target = cu:han value = 1 }
+	}
+
+   # Thai
+	if = {
+    limit ={
+		OR = {
+			culture = cu:shan
+			culture = cu:lao
+		}
+    }
+     change_pop_culture = { target = cu:thai value = 1 }
+	}
+
+   # burmse
+	if = {
+    limit ={
+		OR = {
+			culture = cu:karen
+			culture = cu:kachin
+			culture = cu:lushai
+			culture = cu:naga
+		}
+    }
+     change_pop_culture = { target = cu:burmese value = 1 }
+	}
+
+   # khmer
+	if = {
+    limit ={
+		OR = {
+			culture = cu:mon
+			culture = cu:khmu
+		}
+    }
+     change_pop_culture = { target = cu:khmer value = 1 }
+	}
+
+   # minority_melayu
+	if = {
+    limit ={
+		OR = {
+			culture = cu:batak
+			culture = cu:dayak
+			culture = cu:moro
+			culture = cu:javan
+			culture = cu:moluccan
+			culture = cu:malay
+			culture = cu:bornean
+			culture = cu:sumatran
+			culture = cu:balinese
+		}
+    }
+     change_pop_culture = { target = cu:malay value = 1 }
+	}
+}
+}

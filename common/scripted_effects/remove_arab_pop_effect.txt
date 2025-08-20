@@ -1,0 +1,70 @@
+integrate_arab_pop_custom_1 = {
+   every_scope_pop = {
+   
+   #persian
+	if = {
+    limit ={
+		OR = {
+			culture = cu:mazanderani
+			culture = cu:luri
+		}
+    }
+     change_pop_culture = { target = cu:persian value = 1 }
+	}
+
+   # Middle east
+	if = {
+    limit ={
+		OR = {
+			culture = cu:yemenite
+			culture = cu:bedouin
+			culture = cu:mashriqi
+			culture = cu:misri
+		}
+    }
+     change_pop_culture = { target = cu:bedouin value = 1 }
+	}
+
+   # turkish
+	if = {
+    limit ={
+		OR = {
+			culture = cu:chuvash
+			culture = cu:bashkir
+		}
+    }
+     change_pop_culture = { target = cu:turkish value = 1 }
+	}
+
+   #caucasian
+	if = {
+    limit ={
+		OR = {
+			culture = cu:armenian
+			culture = cu:north_caucasian
+			culture = cu:circassian
+			culture = cu:chechen
+		}
+    }
+     change_pop_culture = { target = cu:georgian value = 1 }
+	}
+
+
+   #ethiopian
+	if = {
+    limit ={
+		OR = {
+			culture = cu:amhara
+			culture = cu:afar
+			culture = cu:oromo
+			culture = cu:sidama
+			culture = cu:tigray
+		}
+    }
+     change_pop_culture = { target = cu:amhara value = 1 }
+	}
+
+
+
+}
+}

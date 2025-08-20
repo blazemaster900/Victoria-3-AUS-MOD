@@ -1,0 +1,72 @@
+integrate_india_pop_custom_1 = {
+   every_scope_pop = {
+   
+   #indian
+	if = {
+    limit ={
+		OR = {
+			culture = cu:assamese
+			culture = cu:bengali
+			culture = cu:bihari
+			culture = cu:manipuri
+			culture = cu:nepali
+			culture = cu:oriya
+			culture = cu:sinhala
+			culture = cu:avadhi
+			culture = cu:kanauji
+			culture = cu:panjabi
+			culture = cu:kashmiri
+			culture = cu:gujarati
+			culture = cu:marathi
+			culture = cu:sindi
+			culture = cu:rajput
+			culture = cu:hindustani
+			culture = cu:bundeli
+			culture = cu:pahari
+			culture = cu:deccani
+			culture = cu:chhattisgarhi
+			culture = cu:bageli
+			culture = cu:pathan
+			culture = cu:kho
+		}
+    }
+     change_pop_culture = { target = cu:hindustani value = 1 }
+	}
+
+   # SouthIndian
+	if = {
+    limit ={
+		OR = {
+			culture = cu:kannada
+			culture = cu:malayalam
+			culture = cu:telegu
+			culture = cu:tamil
+			culture = cu:gondi
+		}
+    }
+     change_pop_culture = { target = cu:kannada value = 1 }
+	}
+
+   # central asian
+	if = {
+    limit ={
+		OR = {
+			culture = cu:uzbek
+			culture = cu:kirgiz
+			culture = cu:tajik
+			culture = cu:uighur
+			culture = cu:hazara
+			culture = cu:turkmen
+			culture = cu:tatar
+			culture = cu:kalmyk
+			culture = cu:tuvan
+			culture = cu:baluchi
+			culture = cu:tuvan
+			culture = cu:pashtun
+			culture = cu:kazak
+		}
+    }
+     change_pop_culture = { target = cu:minority_central_asian value = 1 }
+	}
+}
+}

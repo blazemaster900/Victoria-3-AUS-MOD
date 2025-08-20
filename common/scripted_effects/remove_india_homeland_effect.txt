@@ -1,0 +1,105 @@
+integrate_india_homeland_custom_1 = {
+   
+
+   # Indian
+	if = {
+    limit = { state_region = {
+		OR = {
+			is_homeland = cu:assamese
+			is_homeland = cu:bengali
+			is_homeland = cu:bihari
+			is_homeland = cu:manipuri
+			is_homeland = cu:nepali
+			is_homeland = cu:oriya
+			is_homeland = cu:sinhala
+			is_homeland = cu:avadhi
+			is_homeland = cu:kanauji
+			is_homeland = cu:panjabi
+			is_homeland = cu:kashmiri
+			is_homeland = cu:gujarati
+			is_homeland = cu:marathi
+			is_homeland = cu:sindi
+			is_homeland = cu:rajput
+			is_homeland = cu:hindustani
+			is_homeland = cu:bundeli
+			is_homeland = cu:pahari
+			is_homeland = cu:deccani
+			is_homeland = cu:chhattisgarhi
+			is_homeland = cu:kho
+			is_homeland = cu:pathan
+			is_homeland = cu:bageli
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:hindustani
+			remove_homeland = cu:assamese
+			remove_homeland = cu:bengali
+			remove_homeland = cu:bihari
+			remove_homeland = cu:manipuri
+			remove_homeland = cu:nepali
+			remove_homeland = cu:oriya
+			remove_homeland = cu:sinhala
+			remove_homeland = cu:avadhi
+			remove_homeland = cu:kanauji
+			remove_homeland = cu:panjabi
+			remove_homeland = cu:kashmiri
+			remove_homeland = cu:gujarati
+			remove_homeland = cu:marathi
+			remove_homeland = cu:sindi
+			remove_homeland = cu:rajput
+			remove_homeland = cu:bundeli
+			remove_homeland = cu:pahari
+			remove_homeland = cu:deccani
+			remove_homeland = cu:chhattisgarhi
+			remove_homeland = cu:kho
+			remove_homeland = cu:pathan
+			remove_homeland = cu:bageli
+	}
+	}  
+ # SouthIndian
+	if = {
+    limit = { state_region = {
+		OR = {
+			is_homeland = cu:kannada
+			is_homeland = cu:malayalam
+			is_homeland = cu:telegu
+			is_homeland = cu:tamil
+			is_homeland = cu:gondi
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:kannada
+			remove_homeland = cu:malayalam
+			remove_homeland = cu:telegu
+			remove_homeland = cu:tamil
+			remove_homeland = cu:gondi
+	}
+	}
+   # central asian
+	if = {
+    limit = { state_region = {
+		OR = {
+			is_homeland = cu:uzbek
+			is_homeland = cu:kirgiz
+			is_homeland = cu:tajik
+			is_homeland = cu:uighur
+			is_homeland = cu:hazara
+			is_homeland = cu:turkmen
+			is_homeland = cu:tatar
+			is_homeland = cu:kalmyk
+			is_homeland = cu:tuvan
+			is_homeland = cu:pashtun
+			is_homeland = cu:baluchi
+			is_homeland = cu:kazak
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:minority_central_asian
+			remove_homeland = cu:pashtun
+			remove_homeland = cu:baluchi
+	}
+	}
+}

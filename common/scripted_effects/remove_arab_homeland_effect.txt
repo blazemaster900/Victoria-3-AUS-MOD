@@ -1,0 +1,96 @@
+integrate_arab_homeland_custom_1 = {
+   
+
+   # persian
+	if = {
+    limit = { state_region = {
+		OR = {
+			is_homeland = cu:mazanderani
+			is_homeland = cu:luri
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:persian
+			remove_homeland = cu:mazanderani
+			remove_homeland = cu:luri
+	}
+	}  
+ # middle east
+	if = {
+    limit = { state_region = {
+		OR = {
+			is_homeland = cu:yemenite
+			is_homeland = cu:bedouin
+			is_homeland = cu:mashriqi
+			is_homeland = cu:misri
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:bedouin
+			remove_homeland = cu:yemenite
+			remove_homeland = cu:mashriqi
+			remove_homeland = cu:misri
+	}
+	}
+   # turkish
+	if = {
+    limit = { state_region = {
+		OR = {
+			culture = cu:chuvash
+			culture = cu:bashkir
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:turkish
+			is_homeland = cu:chuvash
+			is_homeland = cu:bashkir
+	}
+	}
+
+   # caucasian
+	if = {
+    limit = { state_region = {
+		OR = {
+			is_homeland = cu:georgian
+			is_homeland = cu:armenian
+			is_homeland = cu:north_caucasian
+			is_homeland = cu:circassian
+			is_homeland = cu:chechen
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:georgian
+			remove_homeland = cu:armenian
+			remove_homeland = cu:north_caucasian
+			remove_homeland = cu:circassian
+			remove_homeland = cu:chechen
+	}
+	}
+
+   # ethiopian
+	if = {
+    limit = { state_region = {
+		OR = {
+			is_homeland = cu:amhara
+			is_homeland = cu:afar
+			is_homeland = cu:oromo
+			is_homeland = cu:sidama
+			is_homeland = cu:tigray
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:amhara
+			remove_homeland = cu:afar
+			remove_homeland = cu:oromo
+			remove_homeland = cu:sidama
+			remove_homeland = cu:tigray
+	}
+	}
+
+
+}

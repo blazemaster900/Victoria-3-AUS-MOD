@@ -1,0 +1,17 @@
+europe_Decision = {
+	is_shown = {
+		has_variable = OpenIntegrationDecision_variable
+		NOT = { has_global_variable = europe_merged }
+		NOT = { has_global_variable = all_merged }
+		NOT = { has_global_variable = hide_decision }
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		trigger_event = { id = Integration_events.5 }	
+		set_global_variable = europe_merged
+	}
+}

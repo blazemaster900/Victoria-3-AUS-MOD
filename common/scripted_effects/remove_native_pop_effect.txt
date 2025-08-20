@@ -1,0 +1,214 @@
+integrate_native_pop_custom_1 = {
+   every_scope_pop = {
+   
+   # North American
+	if = {
+    limit ={
+		OR = {
+			culture = cu:iroquoian
+			culture = cu:inuit
+			culture = cu:nez_perce
+			culture = cu:salish
+			culture = cu:paiute
+			culture = cu:siouan
+			culture = cu:apache
+			culture = cu:dakota
+			culture = cu:caddoan
+			culture = cu:athabaskan
+			culture = cu:algonquian
+			culture = cu:muskogean
+			culture = cu:navajo
+			culture = cu:cree
+			culture = cu:metis
+			culture = cu:oodham
+			culture = cu:comanche
+			culture = cu:pueblo
+		}
+    }
+     change_pop_culture = { target = cu:minority_north_american value = 1 }
+	}
+
+   # central american
+	if = {
+    limit ={
+		OR = {
+			culture = cu:hokan
+			culture = cu:nahua
+			culture = cu:tarascan
+			culture = cu:zapotec
+			culture = cu:mayan
+			culture = cu:mixtec
+			culture = cu:miskito
+		}
+    }
+     change_pop_culture = { target = cu:minority_central_american value = 1 }
+	}
+
+   #  south american
+	if = {
+    limit ={
+		OR = {
+			culture = cu:quechua
+			culture = cu:amazonian
+			culture = cu:guajiro
+			culture = cu:aimara
+			culture = cu:muisca
+			culture = cu:guarani
+			culture = cu:patagonian
+			culture = cu:tupinamba
+			culture = cu:cariban
+		}
+    }
+     change_pop_culture = { target = cu:minority_south_american value = 1 }
+	}
+
+   # east african
+	if = {
+    limit ={
+		OR = {
+			culture = cu:somali
+			culture = cu:beja
+			culture = cu:nuer
+			culture = cu:nuba
+			culture = cu:dinka
+			culture = cu:fur
+			culture = cu:kikuyu
+			culture = cu:swahili
+			culture = cu:baganda
+			culture = cu:luo
+			culture = cu:fluvian_bantu
+			culture = cu:maasai
+			culture = cu:sukuma
+			culture = cu:unyamwezi
+			culture = cu:ruanda
+			culture = cu:rundi
+			culture = cu:nilotic
+			culture = cu:azande
+			culture = cu:lacustrine_bantu
+		}
+    }
+     change_pop_culture = { target = cu:minority_east_african value = 1 }
+	}
+
+   # west african
+	if = {
+    limit ={
+		OR = {
+			culture = cu:akan
+			culture = cu:senufo
+			culture = cu:mande
+			culture = cu:dyula
+			culture = cu:kru
+			culture = cu:fulbe
+			culture = cu:bidan
+			culture = cu:wolof
+			culture = cu:bambara
+			culture = cu:hausa
+			culture = cu:songhai
+			culture = cu:yoruba
+			culture = cu:kissi
+			culture = cu:mossi
+			culture = cu:bassa
+			culture = cu:edo
+			culture = cu:ibo
+			culture = cu:tiv
+			culture = cu:ibibio
+			culture = cu:fon
+			culture = cu:ewe
+			culture = cu:tuareg
+			culture = cu:haratin
+		}
+    }
+     change_pop_culture = { target = cu:minority_west_african value = 1 }
+	}
+
+   # central african
+	if = {
+    limit ={
+		OR = {
+			culture = cu:bakongo
+			culture = cu:baguirmi
+			culture = cu:fang
+			culture = cu:kanuri
+			culture = cu:luba
+			culture = cu:lunda
+			culture = cu:mongo
+			culture = cu:sara
+			culture = cu:equatorial_bantu
+			culture = cu:teda
+		}
+    }
+     change_pop_culture = { target = cu:minority_central_african value = 1 }
+	}
+
+   # southern african
+	if = {
+    limit ={
+		OR = {
+			culture = cu:chewa
+			culture = cu:makua
+			culture = cu:nguni
+			culture = cu:sena
+			culture = cu:shona
+			culture = cu:sotho
+			culture = cu:tonga
+			culture = cu:tswana
+			culture = cu:yao
+			culture = cu:zulu
+			culture = cu:kavango_bantu
+			culture = cu:ovimbundu
+			culture = cu:khoisan
+			culture = cu:xhosa
+			culture = cu:lomwe
+			culture = cu:herero
+		}
+    }
+     change_pop_culture = { target = cu:minority_southern_african value = 1 }
+	}
+
+
+   # polynesian
+	if = {
+    limit ={
+		OR = {
+			culture = cu:melanesian
+			culture = cu:micronesian
+			culture = cu:polynesian
+			culture = cu:yuanzhumin
+		}
+    }
+     change_pop_culture = { target = cu:minority_polynesian value = 1 }
+	}
+
+
+   # siberian
+	if = {
+    limit ={
+		OR = {
+			culture = cu:siberian
+			culture = cu:yakut
+			culture = cu:inuit
+			culture = cu:buryat
+			culture = cu:ainu
+		}
+    }
+     change_pop_culture = { target = cu:minority_siberian value = 1 }
+	}
+
+
+   # finnish
+	if = {
+    limit ={
+		OR = {
+			culture = cu:mordvin
+			culture = cu:ugrian
+			culture = cu:sami
+			culture = cu:karelian
+			culture = cu:mari
+			culture = cu:udmurt
+		}
+    }
+     change_pop_culture = { target = cu:finnish value = 1 }
+	}
+}
+}

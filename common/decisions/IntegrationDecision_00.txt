@@ -1,0 +1,37 @@
+Open_Integration_Decision = {
+	is_shown = {
+		NOT = { has_variable = OpenIntegrationDecision_variable }
+		is_player = yes
+		NOT = { has_global_variable = all_merged }
+		NOT = { has_global_variable = hide_decision }
+	}
+	possible = {
+		always = yes
+	}
+	when_taken = {
+		if = {
+			limit = {
+				NOT = { has_variable = OpenIntegrationDecision_variable }
+			}
+			set_variable = OpenIntegrationDecision_variable
+		}
+		else = {
+			remove_variable = OpenIntegrationDecision_variable
+		}
+	}
+
+}
+
+Close_Integration_Decision = {
+	is_shown = {
+		has_variable = OpenIntegrationDecision_variable
+		NOT = { has_global_variable = all_merged }
+		NOT = { has_global_variable = hide_decision }
+	}
+	possible = {
+		always = yes
+	}
+	when_taken = {
+		remove_variable = OpenIntegrationDecision_variable
+	}
+}

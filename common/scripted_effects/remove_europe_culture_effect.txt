@@ -1,0 +1,55 @@
+integrate_europe_culture_custom_1 = {
+   
+   # west slavic
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:polish
+			country_has_primary_culture = cu:czech
+			country_has_primary_culture = cu:slovak
+			country_has_primary_culture = cu:sorb
+		}
+    }
+     add_primary_culture = cu:polish
+			remove_primary_culture = cu:czech
+			remove_primary_culture = cu:slovak
+			remove_primary_culture = cu:sorb
+	}
+
+
+   # iberian
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:basque
+			country_has_primary_culture = cu:galician
+			country_has_primary_culture = cu:catalan
+			country_has_primary_culture = cu:spanish
+		}
+    }
+     add_primary_culture = cu:minority_iberian
+			remove_primary_culture = cu:basque
+			remove_primary_culture = cu:galician
+			remove_primary_culture = cu:catalan
+		}
+
+
+
+   #scandinavian
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:norwegian
+			country_has_primary_culture = cu:icelandic
+			country_has_primary_culture = cu:danish
+		}
+    }
+     add_primary_culture = cu:swedish
+			remove_primary_culture = cu:norwegian
+			remove_primary_culture = cu:icelandic
+			remove_primary_culture = cu:danish
+		}
+
+
+
+}

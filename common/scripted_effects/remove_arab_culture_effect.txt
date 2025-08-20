@@ -1,0 +1,86 @@
+integrate_arab_culture_custom_1 = {
+   
+   # Persia
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:mazanderani
+			country_has_primary_culture = cu:luri
+		}
+    }
+     add_primary_culture = cu:persian
+			remove_primary_culture = cu:mazanderani
+			remove_primary_culture = cu:luri
+	}
+
+
+   # Middle east
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:yemenite
+			country_has_primary_culture = cu:bedouin
+			country_has_primary_culture = cu:mashriqi
+			country_has_primary_culture = cu:misri
+		}
+    }
+     add_primary_culture = cu:bedouin
+			remove_primary_culture = cu:mashriqi
+			remove_primary_culture = cu:misri
+		}
+
+
+
+   #turkish
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:bashkir
+			country_has_primary_culture = cu:chuvash
+		}
+    }
+     add_primary_culture = cu:turkish
+			remove_primary_culture = cu:bashkir
+			remove_primary_culture = cu:chuvash
+		}
+
+
+   #caucasian
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:georgian
+			country_has_primary_culture = cu:armenian
+			country_has_primary_culture = cu:north_caucasian
+			country_has_primary_culture = cu:circassian
+			country_has_primary_culture = cu:chechen
+		}
+    }
+     add_primary_culture = cu:georgian
+			remove_primary_culture = cu:armenian
+			remove_primary_culture = cu:north_caucasian
+		}
+
+   #ethiopian
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:amhara
+			country_has_primary_culture = cu:afar
+			country_has_primary_culture = cu:oromo
+			country_has_primary_culture = cu:sidama
+			country_has_primary_culture = cu:tigray
+		}
+    }
+     add_primary_culture = cu:amhara
+			remove_primary_culture = cu:afar
+			remove_primary_culture = cu:oromo
+			remove_primary_culture = cu:sidama
+			remove_primary_culture = cu:tigray
+		}
+
+
+
+
+
+}

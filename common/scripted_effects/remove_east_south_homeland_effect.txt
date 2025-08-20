@@ -1,0 +1,81 @@
+integrate_east_south_homeland_custom_1 = {
+   
+
+   # thai
+	if = {
+    limit = { state_region = {
+		OR = {
+			is_homeland = cu:shan
+			is_homeland = cu:lao
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:thai
+			remove_homeland = cu:shan
+			remove_homeland = cu:lao
+	}
+	}  
+ # burmese
+	if = {
+    limit = { state_region = {
+		OR = {
+			is_homeland = cu:karen
+			is_homeland = cu:kachin
+			is_homeland = cu:lushai
+			is_homeland = cu:naga
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:burmese
+			remove_homeland = cu:karen
+			remove_homeland = cu:kachin
+			remove_homeland = cu:lushai
+			remove_homeland = cu:naga
+	}
+	}
+   # khmer
+	if = {
+    limit = { state_region = {
+		OR = {
+			is_homeland = cu:mon
+			is_homeland = cu:khmu
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:minority_melayu
+			remove_homeland = cu:mon
+			remove_homeland = cu:khmu
+	}
+	}
+
+   # melayu
+	if = {
+    limit = { state_region = {
+		OR = {
+			is_homeland = cu:batak
+			is_homeland = cu:dayak
+			is_homeland = cu:moro
+			is_homeland = cu:javan
+			is_homeland = cu:moluccan
+			is_homeland = cu:bornean
+			is_homeland = cu:sumatran
+			is_homeland = cu:balinese
+		}
+    }
+	}
+	state_region = {
+     add_homeland = cu:malay
+			remove_homeland = cu:batak
+			remove_homeland = cu:dayak
+			remove_homeland = cu:moro
+			remove_homeland = cu:javan
+			remove_homeland = cu:moluccan
+			remove_homeland = cu:bornean
+			remove_homeland = cu:sumatran
+			remove_homeland = cu:balinese
+	}
+	}
+}

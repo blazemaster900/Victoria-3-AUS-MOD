@@ -1,0 +1,328 @@
+integrate_native_culture_custom_1 = {
+   
+   # North American
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:iroquoian
+			country_has_primary_culture = cu:inuit
+			country_has_primary_culture = cu:nez_perce
+			country_has_primary_culture = cu:salish
+			country_has_primary_culture = cu:paiute
+			country_has_primary_culture = cu:siouan
+			country_has_primary_culture = cu:apache
+			country_has_primary_culture = cu:dakota
+			country_has_primary_culture = cu:caddoan
+			country_has_primary_culture = cu:athabaskan
+			country_has_primary_culture = cu:algonquian
+			country_has_primary_culture = cu:muskogean
+			country_has_primary_culture = cu:navajo
+			country_has_primary_culture = cu:cree
+			country_has_primary_culture = cu:metis
+			country_has_primary_culture = cu:oodham
+			country_has_primary_culture = cu:comanche
+			country_has_primary_culture = cu:pueblo
+		}
+    }
+     add_primary_culture = cu:minority_north_american
+			remove_primary_culture = cu:iroquoian
+			remove_primary_culture = cu:inuit
+			remove_primary_culture = cu:nez_perce
+			remove_primary_culture = cu:salish
+			remove_primary_culture = cu:paiute
+			remove_primary_culture = cu:siouan
+			remove_primary_culture = cu:apache
+			remove_primary_culture = cu:dakota
+			remove_primary_culture = cu:caddoan
+			remove_primary_culture = cu:athabaskan
+			remove_primary_culture = cu:algonquian
+			remove_primary_culture = cu:muskogean
+			remove_primary_culture = cu:navajo
+			remove_primary_culture = cu:cree
+			remove_primary_culture = cu:metis
+			remove_primary_culture = cu:oodham
+			remove_primary_culture = cu:comanche
+			remove_primary_culture = cu:pueblo
+	}
+
+
+   # central american
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:hokan
+			country_has_primary_culture = cu:nahua
+			country_has_primary_culture = cu:tarascan
+			country_has_primary_culture = cu:zapotec
+			country_has_primary_culture = cu:mayan
+			country_has_primary_culture = cu:mixtec
+			country_has_primary_culture = cu:miskito
+		}
+    }
+     add_primary_culture = cu:minority_central_american
+			remove_primary_culture = cu:hokan
+			remove_primary_culture = cu:nahua
+			remove_primary_culture = cu:tarascan
+			remove_primary_culture = cu:zapotec
+			remove_primary_culture = cu:mayan
+			remove_primary_culture = cu:mixtec
+			remove_primary_culture = cu:miskito
+		}
+
+
+
+   # south american
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:quechua
+			country_has_primary_culture = cu:amazonian
+			country_has_primary_culture = cu:guajiro
+			country_has_primary_culture = cu:aimara
+			country_has_primary_culture = cu:muisca
+			country_has_primary_culture = cu:guarani
+			country_has_primary_culture = cu:patagonian
+			country_has_primary_culture = cu:tupinamba
+			country_has_primary_culture = cu:cariban
+		}
+    }
+     add_primary_culture = cu:minority_south_american
+			remove_primary_culture = cu:quechua
+			remove_primary_culture = cu:amazonian
+			remove_primary_culture = cu:guajiro
+			remove_primary_culture = cu:aimara
+			remove_primary_culture = cu:muisca
+			remove_primary_culture = cu:guarani
+			remove_primary_culture = cu:patagonian
+			remove_primary_culture = cu:tupinamba
+			remove_primary_culture = cu:cariban
+		}
+
+   # east african
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:somali
+			country_has_primary_culture = cu:beja
+			country_has_primary_culture = cu:nuer
+			country_has_primary_culture = cu:nuba
+			country_has_primary_culture = cu:dinka
+			country_has_primary_culture = cu:fur
+			country_has_primary_culture = cu:sudanese
+			country_has_primary_culture = cu:kikuyu
+			country_has_primary_culture = cu:swahili
+			country_has_primary_culture = cu:baganda
+			country_has_primary_culture = cu:luo
+			country_has_primary_culture = cu:fluvian_bantu
+			country_has_primary_culture = cu:maasai
+			country_has_primary_culture = cu:sukuma
+			country_has_primary_culture = cu:unyamwezi
+			country_has_primary_culture = cu:ruanda
+			country_has_primary_culture = cu:rundi
+			country_has_primary_culture = cu:nilotic
+			country_has_primary_culture = cu:azande
+			country_has_primary_culture = cu:lacustrine_bantu
+		}
+    }
+     add_primary_culture = cu:minority_east_african
+			remove_primary_culture = cu:somali
+			remove_primary_culture = cu:beja
+			remove_primary_culture = cu:nuer
+			remove_primary_culture = cu:nuba
+			remove_primary_culture = cu:dinka
+			remove_primary_culture = cu:fur
+			remove_primary_culture = cu:sudanese
+			remove_primary_culture = cu:kikuyu
+			remove_primary_culture = cu:swahili
+			remove_primary_culture = cu:baganda
+			remove_primary_culture = cu:luo
+			remove_primary_culture = cu:fluvian_bantu
+			remove_primary_culture = cu:maasai
+			remove_primary_culture = cu:sukuma
+			remove_primary_culture = cu:unyamwezi
+			remove_primary_culture = cu:ruanda
+			remove_primary_culture = cu:rundi
+			remove_primary_culture = cu:nilotic
+			remove_primary_culture = cu:azande
+			remove_primary_culture = cu:lacustrine_bantu
+		}
+
+   # west african
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:akan
+			country_has_primary_culture = cu:senufo
+			country_has_primary_culture = cu:mande
+			country_has_primary_culture = cu:dyula
+			country_has_primary_culture = cu:kru
+			country_has_primary_culture = cu:fulbe
+			country_has_primary_culture = cu:bidan
+			country_has_primary_culture = cu:wolof
+			country_has_primary_culture = cu:bambara
+			country_has_primary_culture = cu:hausa
+			country_has_primary_culture = cu:songhai
+			country_has_primary_culture = cu:yoruba
+			country_has_primary_culture = cu:kissi
+			country_has_primary_culture = cu:mossi
+			country_has_primary_culture = cu:bassa
+			country_has_primary_culture = cu:edo
+			country_has_primary_culture = cu:ibo
+			country_has_primary_culture = cu:tiv
+			country_has_primary_culture = cu:ibibio
+			country_has_primary_culture = cu:fon
+			country_has_primary_culture = cu:ewe
+			country_has_primary_culture = cu:tuareg
+			country_has_primary_culture = cu:haratin
+		}
+    }
+     add_primary_culture = cu:minority_west_african
+			remove_primary_culture = cu:akan
+			remove_primary_culture = cu:senufo
+			remove_primary_culture = cu:mande
+			remove_primary_culture = cu:dyula
+			remove_primary_culture = cu:kru
+			remove_primary_culture = cu:fulbe
+			remove_primary_culture = cu:bidan
+			remove_primary_culture = cu:wolof
+			remove_primary_culture = cu:bambara
+			remove_primary_culture = cu:hausa
+			remove_primary_culture = cu:songhai
+			remove_primary_culture = cu:yoruba
+			remove_primary_culture = cu:kissi
+			remove_primary_culture = cu:mossi
+			remove_primary_culture = cu:bassa
+			remove_primary_culture = cu:edo
+			remove_primary_culture = cu:ibo
+			remove_primary_culture = cu:tiv
+			remove_primary_culture = cu:ibibio
+			remove_primary_culture = cu:fon
+			remove_primary_culture = cu:ewe
+			remove_primary_culture = cu:tuareg
+			remove_primary_culture = cu:haratin
+		}
+
+   # central african
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:bakongo
+			country_has_primary_culture = cu:baguirmi
+			country_has_primary_culture = cu:fang
+			country_has_primary_culture = cu:kanuri
+			country_has_primary_culture = cu:luba
+			country_has_primary_culture = cu:lunda
+			country_has_primary_culture = cu:mongo
+			country_has_primary_culture = cu:sara
+			country_has_primary_culture = cu:equatorial_bantu
+			country_has_primary_culture = cu:teda
+		}
+    }
+     add_primary_culture = cu:minority_central_african
+			remove_primary_culture = cu:bakongo
+			remove_primary_culture = cu:baguirmi
+			remove_primary_culture = cu:fang
+			remove_primary_culture = cu:kanuri
+			remove_primary_culture = cu:luba
+			remove_primary_culture = cu:lunda
+			remove_primary_culture = cu:mongo
+			remove_primary_culture = cu:sara
+			remove_primary_culture = cu:equatorial_bantu
+			remove_primary_culture = cu:teda
+		}  
+ # southern_african
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:chewa
+			country_has_primary_culture = cu:makua
+			country_has_primary_culture = cu:nguni
+			country_has_primary_culture = cu:sena
+			country_has_primary_culture = cu:shona
+			country_has_primary_culture = cu:sotho
+			country_has_primary_culture = cu:tonga
+			country_has_primary_culture = cu:tswana
+			country_has_primary_culture = cu:yao
+			country_has_primary_culture = cu:zulu
+			country_has_primary_culture = cu:kavango_bantu
+			country_has_primary_culture = cu:ovimbundu
+			country_has_primary_culture = cu:khoisan
+			country_has_primary_culture = cu:xhosa
+			country_has_primary_culture = cu:lomwe
+			country_has_primary_culture = cu:herero
+		}
+    }
+     add_primary_culture = cu:minority_southern_african
+			remove_primary_culture = cu:chewa
+			remove_primary_culture = cu:makua
+			remove_primary_culture = cu:nguni
+			remove_primary_culture = cu:sena
+			remove_primary_culture = cu:shona
+			remove_primary_culture = cu:sotho
+			remove_primary_culture = cu:tonga
+			remove_primary_culture = cu:tswana
+			remove_primary_culture = cu:yao
+			remove_primary_culture = cu:zulu
+			remove_primary_culture = cu:kavango_bantu
+			remove_primary_culture = cu:ovimbundu
+			remove_primary_culture = cu:khoisan
+			remove_primary_culture = cu:xhosa
+			remove_primary_culture = cu:lomwe
+			remove_primary_culture = cu:herero
+		} 
+   # polynesian
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:melanesian
+			country_has_primary_culture = cu:micronesian
+			country_has_primary_culture = cu:polynesian
+			country_has_primary_culture = cu:yuanzhumin
+		}
+    }
+     add_primary_culture = cu:minority_polynesian
+			remove_primary_culture = cu:melanesian
+			remove_primary_culture = cu:micronesian
+			remove_primary_culture = cu:polynesian
+			remove_primary_culture = cu:yuanzhumin
+		}     
+
+# siberian
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:siberian
+			country_has_primary_culture = cu:yakut
+			country_has_primary_culture = cu:inuit
+			country_has_primary_culture = cu:buryat
+			country_has_primary_culture = cu:ainu
+		}
+    }
+     add_primary_culture = cu:minority_siberian
+			remove_primary_culture = cu:siberian
+			remove_primary_culture = cu:yakut
+			remove_primary_culture = cu:inuit
+			remove_primary_culture = cu:buryat
+			remove_primary_culture = cu:ainu
+		}  
+   # finnish
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:mordvin
+			country_has_primary_culture = cu:ugrian
+			country_has_primary_culture = cu:sami
+			country_has_primary_culture = cu:karelian
+			country_has_primary_culture = cu:mari
+			country_has_primary_culture = cu:udmurt
+		}
+    }
+     add_primary_culture = cu:finnish
+			remove_primary_culture = cu:mordvin
+			remove_primary_culture = cu:ugrian
+			remove_primary_culture = cu:sami
+			remove_primary_culture = cu:karelian
+			remove_primary_culture = cu:mari
+			remove_primary_culture = cu:udmurt
+		}  
+}

@@ -1,0 +1,74 @@
+integrate_east_south_culture_custom_1 = {
+   
+   # thai
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:shan
+			country_has_primary_culture = cu:lao
+		}
+    }
+     add_primary_culture = cu:thai
+			remove_primary_culture = cu:shan
+			remove_primary_culture = cu:lao
+	}
+
+
+   # burmese
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:karen
+			country_has_primary_culture = cu:kachin
+			country_has_primary_culture = cu:lushai
+			country_has_primary_culture = cu:naga
+		}
+    }
+     add_primary_culture = cu:burmese
+			remove_primary_culture = cu:karen
+			remove_primary_culture = cu:kachin
+			remove_primary_culture = cu:lushai
+			remove_primary_culture = cu:naga
+		}
+
+
+
+   # khmer
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:mon
+			country_has_primary_culture = cu:khmu
+		}
+    }
+     add_primary_culture = cu:khmer
+			remove_primary_culture = cu:mon
+			remove_primary_culture = cu:khmu
+		}
+
+   # melayu
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:batak
+			country_has_primary_culture = cu:dayak
+			country_has_primary_culture = cu:moro
+			country_has_primary_culture = cu:javan
+			country_has_primary_culture = cu:moluccan
+			country_has_primary_culture = cu:malay
+			country_has_primary_culture = cu:bornean
+			country_has_primary_culture = cu:sumatran
+			country_has_primary_culture = cu:balinese
+		}
+    }
+     add_primary_culture = cu:malay
+			remove_primary_culture = cu:batak
+			remove_primary_culture = cu:dayak
+			remove_primary_culture = cu:moro
+			remove_primary_culture = cu:javan
+			remove_primary_culture = cu:moluccan
+			remove_primary_culture = cu:bornean
+			remove_primary_culture = cu:sumatran
+			remove_primary_culture = cu:balinese
+		}
+}

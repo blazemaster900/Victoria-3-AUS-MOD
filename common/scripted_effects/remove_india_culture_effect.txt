@@ -1,0 +1,105 @@
+integrate_india_culture_custom_1 = {
+   
+   # indian
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:assamese
+			country_has_primary_culture = cu:bengali
+			country_has_primary_culture = cu:bihari
+			country_has_primary_culture = cu:manipuri
+			country_has_primary_culture = cu:nepali
+			country_has_primary_culture = cu:oriya
+			country_has_primary_culture = cu:sinhala
+			country_has_primary_culture = cu:avadhi
+			country_has_primary_culture = cu:kanauji
+			country_has_primary_culture = cu:panjabi
+			country_has_primary_culture = cu:kashmiri
+			country_has_primary_culture = cu:gujarati
+			country_has_primary_culture = cu:marathi
+			country_has_primary_culture = cu:sindi
+			country_has_primary_culture = cu:rajput
+			country_has_primary_culture = cu:bundeli
+			country_has_primary_culture = cu:pahari
+			country_has_primary_culture = cu:deccani
+			country_has_primary_culture = cu:chhattisgarhi
+			country_has_primary_culture = cu:bageli
+			country_has_primary_culture = cu:kho
+			country_has_primary_culture = cu:pathan
+		}
+    }
+     add_primary_culture = cu:hindustani
+			remove_primary_culture = cu:assamese
+			remove_primary_culture = cu:bengali
+			remove_primary_culture = cu:bihari
+			remove_primary_culture = cu:manipuri
+			remove_primary_culture = cu:nepali
+			remove_primary_culture = cu:oriya
+			remove_primary_culture = cu:sinhala
+			remove_primary_culture = cu:avadhi
+			remove_primary_culture = cu:kanauji
+			remove_primary_culture = cu:panjabi
+			remove_primary_culture = cu:kashmiri
+			remove_primary_culture = cu:gujarati
+			remove_primary_culture = cu:marathi
+			remove_primary_culture = cu:sindi
+			remove_primary_culture = cu:rajput
+			remove_primary_culture = cu:bundeli
+			remove_primary_culture = cu:pahari
+			remove_primary_culture = cu:deccani
+			remove_primary_culture = cu:chhattisgarhi
+			remove_primary_culture = cu:bageli
+			remove_primary_culture = cu:kho
+			remove_primary_culture = cu:pathan
+	}
+
+
+   # Dravida
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:kannada
+			country_has_primary_culture = cu:malayalam
+			country_has_primary_culture = cu:telegu
+			country_has_primary_culture = cu:tamil
+			country_has_primary_culture = cu:gondi
+		}
+    }
+     add_primary_culture = cu:kannada
+			remove_primary_culture = cu:malayalam
+			remove_primary_culture = cu:telegu
+			remove_primary_culture = cu:tamil
+			remove_primary_culture = cu:gondi
+		}
+
+
+
+   #central asian
+	if = {
+    limit ={
+		OR = {
+			country_has_primary_culture = cu:uzbek
+			country_has_primary_culture = cu:kirgiz
+			country_has_primary_culture = cu:tajik
+			country_has_primary_culture = cu:uighur
+			country_has_primary_culture = cu:hazara
+			country_has_primary_culture = cu:turkmen
+			country_has_primary_culture = cu:tatar
+			country_has_primary_culture = cu:kalmyk
+			country_has_primary_culture = cu:tuvan
+			country_has_primary_culture = cu:baluchi
+			country_has_primary_culture = cu:kazak
+		}
+    }
+     add_primary_culture = cu:minority_central_asian
+			remove_primary_culture = cu:uzbek
+			remove_primary_culture = cu:kirgiz
+			remove_primary_culture = cu:tajik
+			remove_primary_culture = cu:uighur
+			remove_primary_culture = cu:hazara
+			remove_primary_culture = cu:turkmen
+			remove_primary_culture = cu:tatar
+			remove_primary_culture = cu:kalmyk
+			remove_primary_culture = cu:tuvan
+		}
+}
